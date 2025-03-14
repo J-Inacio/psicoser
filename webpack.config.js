@@ -1,6 +1,7 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
-const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+// const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+// const isDev = process.env.NODE_ENV === "development";
 
 module.exports = {
 	entry: "./src/js/index.js",
@@ -16,13 +17,14 @@ module.exports = {
 		},
 		open: false,
 		hot: true,
+		liveReload: true
 	},
 	module: {
 		rules: [
 			// ========== CSS ==========
 			{
 				test: /\.css$/,
-				use: [MiniCssExtractPlugin.loader, "css-loader"],
+				use: ["style-loader", "css-loader"],
 			},
 
 			// ========== JavaScript ==========
@@ -48,6 +50,15 @@ module.exports = {
 					},
 				],
 			},
+			// ========== Fontes ==========
+			{
+				test: /\.(woff|woff2|ttf|eot|otf)$/i,
+				type: "asset/resource",
+				generator: {
+				  filename: "fonts/[name][ext]", // Salva em /dist/fonts/
+				},
+			  },
+			
 
 			// ========== Vídeos ==========
 			{
@@ -63,16 +74,15 @@ module.exports = {
 		],
 	},
 	plugins: [
-		new MiniCssExtractPlugin({
-			filename: "index.css",
-		}),
+		// new MiniCssExtractPlugin({
+		// 	filename: "index.css",
+		// }),
 		// Gera HTML com os scripts injetados
 		new HtmlWebpackPlugin({
-			// template: "./src/index.html", // Arquivo fonte HTML
-			filename: "bundle.html", // Nome do output
+			filename: "index.html", // Nome do output
 			port: 8080,
 			template: "src/index.html",
-			minify: false,
+			// minify: true,
 		}),
 	],
 };

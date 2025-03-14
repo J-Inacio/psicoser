@@ -1,0 +1,14 @@
+.header {
+    position: relative;
+    min-width: 260px;
+	width: 100vw;
+	height: 15.18rem;
+	background-image: linear-gradient(
+			to bottom,
+			rgba(0, 0, 0, 0.5),
+			rgba(0, 0, 0, 0)
+		),
+		url("/src/assets/img/img-header.png");
+	background-size: cover;
+	background-position: center;
+}
