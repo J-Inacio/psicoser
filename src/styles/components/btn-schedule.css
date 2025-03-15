@@ -1,6 +1,10 @@
 .btn-schedule {
-	width: 12rem;
-	height: 4rem;
+	display: flex;
+	column-gap: 16px;
+	justify-content: center;
+	align-items: center;
+	width: 14rem;
+	height: 4.5rem;
 	border: none;
 	border-radius: 4px;
 	-webkit-box-shadow: 0px 8px 12px 0px rgba(0, 0, 0, 0.75);
@@ -9,4 +13,5 @@
     background-color: var(--cor-secundaria-azul-escuro);
     color: var(--cor-fundo-branco);
     font-size: 0.75rem;
+	padding: 2em;
 }
