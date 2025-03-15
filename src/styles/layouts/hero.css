@@ -1,6 +1,6 @@
 #hero-section {
     width: 100vw;
-    height: 32rem;
+    height: 25rem;
     background-color: var(--cor-primaria-azul);
     color: var(--cor-secundaria-azul-escuro);
 }
@@ -38,5 +38,5 @@
 
 .hero-text h1 {
     text-align: center;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
 }
