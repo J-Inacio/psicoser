@@ -4,15 +4,21 @@ body {
 	color: #fff;
 	width: 100vw;
 	height: 100vh;
+   
 }
 
 body h1 {
 	font-size: 32px;
 }
 
+/* layouts */
 @import url('./layouts/header.css');
 @import url('./layouts/sidebar.css');
+@import url('./layouts/hero.css');
 
+
+/* components */
+@import url('./components/btn-schedule.css');
 
 
 
