@@ -11,69 +11,12 @@ body h1 {
 }
 
 @import url('./layouts/header.css');
+@import url('./layouts/sidebar.css');
 
-.navbar {
-	display: flex;
-	justify-content: space-between;
-    align-items: center;
-	
-}
 
-.logo-header-link {
-	height: 10%;
-}
 
-#logo-header {
-	padding: 1rem;
-	width: 9.8rem;
-	height: 2.68rem;
-}
 
-.desktop-menu {
-	display: none;
-}
 
-.menu-toggle {
-	color: #fff;
-    font-size: 1.5rem;
-	width: 1.5rem;
-	height: 1.5rem;
-	margin: 1rem;
-}
 
-#mobile-sidebar {
-    position: absolute;
-    right: 0%;
-    top: 0%;
-    z-index: 1;
-    background-color: var(--cor-primaria-azul);
-    width: 100%;
-    height: 100vh;
-    position: absolute;
-	display: none;
-}
 
-#close-icon-div {
-    display: flex;
-    justify-content: end;
-    align-items: last baseline;
-    font-size: 1.5rem;
-    width: 97%;
-    height: 3%;
-    color: var(--cor-fundo-branco);
-}
 
-.mobile-links {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    row-gap: 10%;
-    color: var(--cor-fundo-branco);
-}
-
-.mobile-links a{
-    font-size: 1.25rem;
-    text-decoration: none;
-}

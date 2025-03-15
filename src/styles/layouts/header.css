@@ -1,6 +1,6 @@
 .header {
-    position: relative;
-    min-width: 260px;
+	position: relative;
+	min-width: 260px;
 	width: 100vw;
 	height: 15.18rem;
 	background-image: linear-gradient(
@@ -11,4 +11,32 @@
 		url("/src/assets/img/img-header.png");
 	background-size: cover;
 	background-position: center;
+}
+
+.logo-header-link {
+	height: 10%;
+}
+
+#logo-header {
+	padding: 1rem;
+	width: 9.8rem;
+	height: 2.68rem;
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.menu-toggle {
+	color: #fff;
+	font-size: 1.5rem;
+	width: 1.5rem;
+	height: 1.5rem;
+	margin: 1rem;
+}
+
+.desktop-menu {
+	display: none;
 }
