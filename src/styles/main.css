@@ -17,11 +17,14 @@ body h1 {
 @import url('./layouts/hero.css');
 @import url('./layouts/services.css');
 @import url('./layouts/about.css');
+@import url('./layouts/team.css');
+
 
 
 /* components */
 @import url('./components/btn-schedule.css');
-@import url('./components/service-card.css')
+@import url('./components/service-card.css');
+@import url('./components/perfil-card.css')
 
 
 

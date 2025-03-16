@@ -1,0 +1,39 @@
+.perfil-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 4px;
+    margin: 1rem 0rem;
+    padding: 1rem 0rem;
+    color: #09182D;
+    background-color: var(--cor-fundo-branco);
+    background-image: url('../../assets/img/big-wave.svg');
+    background-size: cover;
+    background-position: center;
+    width: 20rem;
+    height: 32rem;
+    -webkit-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+}
+
+.perfil-internal-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding: 0rem 1rem;
+    height: 35%;
+}
+
+.perfil-card ul {
+    font-size: 0.8rem;
+    /* list-style: disc; */
+}
+
+.perfil-img {
+    border-radius: 4px;
+    width: 16rem;
+    height: auto;
+}

@@ -5,6 +5,7 @@
     outline: 1px solid var(--cor-primaria-azul);
     border-radius: 4px;
     background-color: var(--cor-fundo-branco);
+    max-width: 340px;
     width: 100%;
     margin: 2rem;
     height: 25rem;
