@@ -16,6 +16,7 @@ body h1 {
 @import url('./layouts/sidebar.css');
 @import url('./layouts/hero.css');
 @import url('./layouts/services.css');
+@import url('./layouts/about.css');
 
 
 /* components */
