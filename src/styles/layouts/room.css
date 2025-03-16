@@ -1,0 +1,15 @@
+#room {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 40rem;
+    color: var(--cor-secundaria-azul-escuro);
+    background-color: var(--cor-primaria-azul);
+}
+
+.internal-room-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
