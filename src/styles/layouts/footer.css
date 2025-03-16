@@ -1,0 +1,27 @@
+#contact {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--cor-secundaria-azul-escuro);
+    height: 50rem;
+}
+
+.logo-footer {
+    width: 100%;
+}
+
+.footer-links {
+
+}
+
+.footer-links a {
+    color: var(--cor-fundo-branco);
+}
+
+.wave-footer {
+    background-color: var(--cor-secundaria-azul-escuro);
+    background-image: url('../../assets/img/wave-footer.svg');
+    background-position: center;
+    background-size: cover;
+    height: 5rem;
+    width: 100%;
+}
