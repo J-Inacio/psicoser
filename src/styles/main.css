@@ -25,7 +25,8 @@ body h1 {
 /* components */
 @import url('./components/btn-schedule.css');
 @import url('./components/service-card.css');
-@import url('./components/perfil-card.css')
+@import url('./components/perfil-card.css');
+@import url('./components/slider.css');
 
 
 
