@@ -2,7 +2,8 @@
     display: flex;
     flex-direction: column;
     background-color: var(--cor-secundaria-azul-escuro);
-    height: 50rem;
+    height: 60rem;
+    position: relative;
 }
 
 .logo-footer {
@@ -18,10 +19,22 @@
 }
 
 .wave-footer {
-    background-color: var(--cor-secundaria-azul-escuro);
-    background-image: url('../../assets/img/wave-footer.svg');
-    background-position: center;
-    background-size: cover;
-    height: 5rem;
+    display: flex;
     width: 100%;
+}
+
+.wave-footer img {
+    width: 100%;
+}
+
+.bottom-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 64px;
+    font-size: 0.6rem;
+    row-gap: 8px;
+    background-color:#09182D ;
+    color: var(--cor-fundo-branco);
 }
