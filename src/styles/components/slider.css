@@ -1,8 +1,9 @@
 .carousel-container {
     width: 100%;
-    max-width: 600px;
+    max-width: 50rem;
     overflow: hidden;
     position: relative;
+    border-radius: 10px;
 }
 
 .carousel {
@@ -19,13 +20,14 @@
     position: absolute;
     top: 50%;
     width: 100%;
+  
     display: flex;
     justify-content: space-between;
     transform: translateY(-50%);
 }
 
 .buttons button {
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(154, 216, 255, 0.5);
     color: white;
     border: none;
     padding: 10px;
@@ -33,6 +35,10 @@
     font-size: 18px;
 }
 
-.buttons button:hover {
-    background: rgba(0, 0, 0, 0.8);
+#next {
+    border-radius: .5rem 0rem 0rem .5rem;
+}
+
+#prev {
+    border-radius: 0rem .5rem .5rem 0rem;
 }
