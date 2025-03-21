@@ -1,11 +1,25 @@
-
-
 #team {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
     background-color: #DFD7E6;
     color: var(--cor-secundaria-azul-escuro);
-    height: 70rem;
-    
+    gap: 1rem;
+    padding: 1rem 0rem;
+}
+
+#team h2 {
+    font-size: 2rem;
+
+}
+
+.perfil-cards-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
 }

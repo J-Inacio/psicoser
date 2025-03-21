@@ -4,14 +4,13 @@
     align-items: center;
     justify-content: space-evenly;
     border-radius: 4px;
-    margin: 1rem 0rem;
     padding: 1rem 0rem;
     color: #09182D;
     background-color: var(--cor-fundo-branco);
     background-image: url('../../assets/img/big-wave.svg');
     background-size: cover;
     background-position: center;
-    width: 20rem;
+    width: 18rem;
     height: 32rem;
     -webkit-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
     -moz-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
