@@ -1,12 +1,13 @@
-#mobile-sidebar {
+.mobile-sidebar {
 	min-width: 300px;
-	position: absolute;
+	position: fixed;
 	right: 0%;
 	top: 0%;
-	z-index: 1;
+	z-index: 10;
 	background-color: var(--cor-primaria-azul);
 	width: 100%;
 	height: 100vh;
+	overflow-y: visible;
 	position: absolute;
 	padding-top: 32px;
 	background: rgb(175, 206, 227);
@@ -17,6 +18,11 @@
 	);
 	display: none;
 }
+
+.sibebar-closed {
+
+}
+
 
 .mobile-links {
 	height: 100%;
@@ -44,9 +50,18 @@
 
 #close-icon-div {
 	display: flex;
-	justify-content: end;
-	align-items: last baseline;
+	justify-content: flex-end;
+	
+	/* align-items: last baseline; */
 	font-size: 1.5rem;
-	width: 95%;
+
+	
+	/* height: 5rem; */
 	color: var(--cor-fundo-branco);
+}
+
+#close-icon-div i {
+	font-size: 2rem;
+	padding: 1rem 2rem;	
+	cursor: pointer;
 }
