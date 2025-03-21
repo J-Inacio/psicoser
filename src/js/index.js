@@ -11,8 +11,6 @@ const menuBtn = document.querySelector(".menu-toggle");
 const sidebar = document.querySelector(".mobile-sidebar");
 const closeSidebarBtn = document.querySelector('.x-icon')
 
-console.log(closeSidebarBtn)
-
 closeSidebarBtn.addEventListener('click', () => {
     sidebar.style.display = "none"
 })
