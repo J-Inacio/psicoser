@@ -40,3 +40,8 @@
     width: 16rem;
     height: auto;
 }
+
+.perfil-btn {
+    border-radius: .5rem;
+    height: 2rem;
+}
