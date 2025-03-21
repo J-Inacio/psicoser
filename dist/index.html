@@ -13,9 +13,16 @@
 		></script>
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+			rel="stylesheet"
+		/>
 	<script defer src="/main.min.js"></script></head>
 	<body>
 		<header class="header">
+			<!-- <div class="header-img-container">
+				<img src="./assets/img/header-img1.png" alt="">
+			</div> -->
 			<nav class="navbar">
 				<a href="/" class="logo-header-link"
 					><img
@@ -41,7 +48,7 @@
 					</i>
 				</div>
 			</nav>
-			<div class="inter-regular" id="mobile-sidebar" aria-hidden="true">
+			<div class="nunito-regular" id="mobile-sidebar" aria-hidden="true">
 				<div id="close-icon-div">
 					<i
 						class="fa-solid fa-xmark fa-xl"
@@ -72,21 +79,21 @@
 						<h1 class="merriweather-bold">
 							Bem-vindo ao Psicoser Consultório de Psicologia
 						</h1>
-						<aside class="merriweather-regular">
+						<aside class="nunito-regular spaced">
 							Nosso espaço foi pensado para proporcionar
-							<strong class="merriweather-bold"
+							<strong class="nunito-bold"
 								>acolhimento, conforto e bem-estar</strong
 							>
 							a cada pessoa que entra por aqui. Cada detalhe
 							reflete nosso compromisso com o cuidado e a escuta
 							atenta.
 						</aside>
-						<aside class="merriweather-regular">
+						<aside class="nunito-regular spaced">
 							Venha conhecer nosso ambiente e dar o primeiro passo
 							rumo ao seu bem-estar emocional!
 						</aside>
 					</section>
-					<button class="btn-schedule merriweather-bold">
+					<button class="btn-schedule nunito-bold">
 						<strong>Agende sua consulta</strong>
 
 						<i
@@ -104,196 +111,189 @@
 				</div>
 			</section>
 			<section id="services">
-				<h2 class="merriweather-bold">Serviços Oferecidos</h2>
-				<div class="service-card">
-					<div>
-						<img
-							class="card-wave"
-							src="/assets/cardWave2.65e38b12169bf2692f15.svg"
-							alt="imagem ilustrativa"
-						/>
+				<h2 class="merriweather-bold">Serviços</h2>
+				<div class="cards">
+					<div class="service-card">
+						<div class="card-wave">
+							<img
+								src="/assets/cardWave2.65e38b12169bf2692f15.svg"
+								alt="imagem ilustrativa"
+							/>
+						</div>
+						<section class="internal-card-text">
+							<h3 class="merriweather-bold">
+								Atendimento Psicológico Individual
+							</h3>
+							<aside class="nunito-regular spaced">
+								Cuidar da sua saúde mental é essencial.
+								Oferecemos um espaço acolhedor para adultos,
+								adolescentes e crianças, ajudando a compreender
+								emoções, superar desafios e encontrar
+								equilíbrio.
+							</aside>
+							<img
+								class="card-img"
+								src="/assets/brainIcon.3a7168cc4f300ad7d70f.svg"
+								alt="Icone personagem com cerebro"
+							/>
+						</section>
+						<div class="card-wave">
+							<img
+								src="/assets/cardWave.0eba8f3a153eaddf9a97.svg"
+								alt="imagem ilustrativa"
+							/>
+						</div>
 					</div>
-					<section class="internal-card-text">
-						<h3 class="merriweather-bold">
-							Atendimento Psicológico Individual
-						</h3>
-						<aside>
-							Cuidar da sua saúde mental é essencial. Oferecemos
-							um espaço acolhedor para adultos, adolescentes e
-							crianças, ajudando a compreender emoções, superar
-							desafios e encontrar equilíbrio.
-						</aside>
-						<img
-							class="card-img"
-							src="/assets/brainIcon.3a7168cc4f300ad7d70f.svg"
-							alt="Icone personagem com cerebro"
-						/>
-					</section>
-					<div>
-						<img
-							class="card-wave"
-							src="/assets/cardWave.0eba8f3a153eaddf9a97.svg"
-							alt="imagem ilustrativa"
-						/>
+					<div class="service-card">
+						<div class="card-wave">
+							<img
+								src="/assets/cardWave2.65e38b12169bf2692f15.svg"
+								alt="imagem ilustrativa"
+							/>
+						</div>
+						<section class="internal-card-text">
+							<h3 class="merriweather-bold">
+								Terapia de Casal e Familiar
+							</h3>
+							<aside class="nunito-regular spaced">
+								Relacionamentos saudáveis transformam vidas.
+								Fortaleça os laços, melhore a comunicação e
+								construa conexões mais leves e harmoniosas.
+							</aside>
+							<img
+								class="card-img"
+								src="/assets/health-mental.5b3247511d44e583b527.svg"
+								alt="Icone personagem com cerebro"
+							/>
+						</section>
+						<div class="card-wave">
+							<img
+								src="/assets/cardWave.0eba8f3a153eaddf9a97.svg"
+								alt="imagem ilustrativa"
+							/>
+						</div>
 					</div>
-				</div>
-				<div class="service-card">
-					<div>
-						<img
-							class="card-wave"
-							src="/assets/cardWave2.65e38b12169bf2692f15.svg"
-							alt="imagem ilustrativa"
-						/>
+					<div class="service-card">
+						<div class="card-wave">
+							<img
+								src="/assets/cardWave2.65e38b12169bf2692f15.svg"
+								alt="imagem ilustrativa"
+							/>
+						</div>
+						<section class="internal-card-text">
+							<h3 class="merriweather-bold">
+								Gestão do Estresse e Ansiedade
+							</h3>
+							<aside class="nunito-regular spaced">
+								A rotina pode ser desgastante, mas você não
+								precisa enfrentá-la sozinho. Aprenda estratégias
+								para reduzir o estresse e lidar melhor com a
+								ansiedade no dia a dia.
+							</aside>
+							<img
+								class="card-img"
+								src="/assets/brainIcon.3a7168cc4f300ad7d70f.svg"
+								alt="Icone personagem com cerebro"
+							/>
+						</section>
+						<div class="card-wave">
+							<img
+								src="/assets/cardWave.0eba8f3a153eaddf9a97.svg"
+								alt="imagem ilustrativa"
+							/>
+						</div>
 					</div>
-					<section class="internal-card-text">
-						<h3 class="merriweather-bold">
-							Terapia de Casal e Familiar
-						</h3>
-						<aside>
-							Relacionamentos saudáveis transformam vidas.
-							Fortaleça os laços, melhore a comunicação e construa
-							conexões mais leves e harmoniosas.
-						</aside>
-						<img
-							class="card-img"
-							src="/assets/health-mental.5b3247511d44e583b527.svg"
-							alt="Icone personagem com cerebro"
-						/>
-					</section>
-					<div>
-						<img
-							class="card-wave"
-							src="/assets/cardWave.0eba8f3a153eaddf9a97.svg"
-							alt="imagem ilustrativa"
-						/>
+					<div class="service-card">
+						<div class="card-wave">
+							<img
+								src="/assets/cardWave2.65e38b12169bf2692f15.svg"
+								alt="imagem ilustrativa"
+							/>
+						</div>
+						<section class="internal-card-text">
+							<h3 class="merriweather-bold">
+								Desenvolvimento Emocional e Autoestima
+							</h3>
+							<aside class="nunito-regular spaced">
+								Sentir-se bem consigo mesmo faz toda a
+								diferença. Trabalhe sua autoconfiança, aprenda a
+								lidar com emoções e construa uma versão mais
+								forte de si.
+							</aside>
+							<img
+								class="card-img"
+								src="/assets/health-mental.5b3247511d44e583b527.svg"
+								alt="Icone personagem com cerebro"
+							/>
+						</section>
+						<div class="card-wave">
+							<img
+								src="/assets/cardWave.0eba8f3a153eaddf9a97.svg"
+								alt="imagem ilustrativa "
+							/>
+						</div>
 					</div>
-				</div>
-				<div class="service-card">
-					<div>
-						<img
-							class="card-wave"
-							src="/assets/cardWave2.65e38b12169bf2692f15.svg"
-							alt="imagem ilustrativa"
-						/>
+					<div class="service-card">
+						<div class="card-wave">
+							<img src="/assets/cardWave2.65e38b12169bf2692f15.svg" alt="" />
+						</div>
+						<section class="internal-card-text">
+							<h3 class="merriweather-bold">
+								Orientação Profissional e de Carreira
+							</h3>
+							<aside class="nunito-regular spaced">
+								Seja para escolher um caminho ou lidar com
+								desafios profissionais, te ajudamos a tomar
+								decisões mais seguras e alinhadas com seus
+								objetivos.
+							</aside>
+							<img
+								class="card-img"
+								src="/assets/brainIcon.3a7168cc4f300ad7d70f.svg"
+								alt="Icone personagem com cerebro"
+							/>
+						</section>
+						<div class="card-wave">
+							<img
+								src="/assets/cardWave.0eba8f3a153eaddf9a97.svg"
+								alt="imagem ilustrativa"
+							/>
+						</div>
 					</div>
-					<section class="internal-card-text">
-						<h3 class="merriweather-bold">
-							Gestão do Estresse e Ansiedade
-						</h3>
-						<aside>
-							A rotina pode ser desgastante, mas você não precisa
-							enfrentá-la sozinho. Aprenda estratégias para
-							reduzir o estresse e lidar melhor com a ansiedade no
-							dia a dia.
-						</aside>
-						<img
-							class="card-img"
-							src="/assets/brainIcon.3a7168cc4f300ad7d70f.svg"
-							alt="Icone personagem com cerebro"
-						/>
-					</section>
-					<div>
-						<img
-							class="card-wave"
-							src="/assets/cardWave.0eba8f3a153eaddf9a97.svg"
-							alt="imagem ilustrativa"
-						/>
-					</div>
-				</div>
-				<div class="service-card">
-					<div>
-						<img
-							class="card-wave"
-							src="/assets/cardWave2.65e38b12169bf2692f15.svg"
-							alt="imagem ilustrativa"
-						/>
-					</div>
-					<section class="internal-card-text">
-						<h3 class="merriweather-bold">
-							Desenvolvimento Emocional e Autoestima
-						</h3>
-						<aside>
-							Sentir-se bem consigo mesmo faz toda a diferença.
-							Trabalhe sua autoconfiança, aprenda a lidar com
-							emoções e construa uma versão mais forte de si.
-						</aside>
-						<img
-							class="card-img"
-							src="/assets/health-mental.5b3247511d44e583b527.svg"
-							alt="Icone personagem com cerebro"
-						/>
-					</section>
-					<div>
-						<img
-							class="card-wave"
-							src="/assets/cardWave.0eba8f3a153eaddf9a97.svg"
-							alt="imagem ilustrativa "
-						/>
-					</div>
-				</div>
-				<div class="service-card">
-					<div>
-						<img
-							class="card-wave"
-							src="/assets/cardWave2.65e38b12169bf2692f15.svg"
-							alt=""
-						/>
-					</div>
-					<section class="internal-card-text">
-						<h3 class="merriweather-bold">
-							Orientação Profissional e de Carreira
-						</h3>
-						<aside>
-							Seja para escolher um caminho ou lidar com desafios
-							profissionais, te ajudamos a tomar decisões mais
-							seguras e alinhadas com seus objetivos.
-						</aside>
-						<img
-							class="card-img"
-							src="/assets/brainIcon.3a7168cc4f300ad7d70f.svg"
-							alt="Icone personagem com cerebro"
-						/>
-					</section>
-					<div>
-						<img
-							class="card-wave"
-							src="/assets/cardWave.0eba8f3a153eaddf9a97.svg"
-							alt="imagem ilustrativa"
-						/>
-					</div>
-				</div>
-				<div class="service-card">
-					<div>
-						<img
-							class="card-wave"
-							src="/assets/cardWave2.65e38b12169bf2692f15.svg"
-							alt="imagem ilustrativa"
-						/>
-					</div>
-					<section class="internal-card-text">
-						<h3 class="merriweather-bold">
-							Palestras e Workshops sobre Saúde Mental no Trabalho
-						</h3>
-						<aside>
-							Colaboradores saudáveis são mais produtivos. Leve
-							conhecimento sobre saúde mental para sua equipe e
-							fortaleça um ambiente de trabalho mais equilibrado.
-						</aside>
-						<img
-							class="card-img"
-							src="/assets/brainIcon.3a7168cc4f300ad7d70f.svg"
-							alt="Icone personagem com cerebro"
-						/>
-					</section>
-					<div>
-						<img
-							class="card-wave"
-							src="/assets/cardWave.0eba8f3a153eaddf9a97.svg"
-							alt="imagem ilustrativa"
-						/>
+					<div class="service-card">
+						<div class="card-wave">
+							<img
+								src="/assets/cardWave2.65e38b12169bf2692f15.svg"
+								alt="imagem ilustrativa"
+							/>
+						</div>
+						<section class="internal-card-text">
+							<h3 class="merriweather-bold">
+								Palestras e Workshops sobre Saúde Mental no
+								Trabalho
+							</h3>
+							<aside class="nunito-regular spaced">
+								Colaboradores saudáveis são mais produtivos.
+								Leve conhecimento sobre saúde mental para sua
+								equipe e fortaleça um ambiente de trabalho mais
+								equilibrado.
+							</aside>
+							<img
+								class="card-img"
+								src="/assets/brainIcon.3a7168cc4f300ad7d70f.svg"
+								alt="Icone personagem com cerebro"
+							/>
+						</section>
+						<div class="card-wave">
+							<img
+								src="/assets/cardWave.0eba8f3a153eaddf9a97.svg"
+								alt="imagem ilustrativa"
+							/>
+						</div>
 					</div>
 				</div>
-				<button class="btn-schedule merriweather-bold">
+
+				<button class="btn-schedule nunito-bold service-btn">
 					<strong>Agende sua consulta</strong>
 					<i
 						class="fa-brands fa-whatsapp fa-xl"
@@ -304,92 +304,121 @@
 			<section id="about">
 				<div class="internal-about-text">
 					<h2 class="merriweather-bold">Sobre Nós</h2>
-					<aside class="inter-regular">
-						Cuidar da saúde mental é um caminho que exige
-						acolhimento, compreensão e confiança. Nosso consultório
-						foi criado para oferecer um espaço seguro, onde cada
-						pessoa é ouvida sem julgamentos e acompanhada com
-						respeito e profissionalismo. Acreditamos que cada
-						história é única e, por isso, trabalhamos com uma
-						abordagem personalizada, ajudando você a encontrar
-						equilíbrio emocional, desenvolver habilidades para lidar
-						com desafios e construir relações mais saudáveis. Seja
-						para enfrentar momentos difíceis, buscar
-						autoconhecimento ou melhorar sua qualidade de vida,
-						estamos aqui para caminhar ao seu lado. 💙
+					<aside class="nunito-regular spaced">
+						<p class="nunito-regular spaced">
+							Cuidar da saúde mental é uma jornada que requer
+							acolhimento, compreensão e, acima de tudo,
+							confiança. Reconhecemos que cada pessoa possui suas
+							particularidades e, por isso, nossa abordagem inicia
+							com o respeito à individualidade de cada história.
+						</p>
+						<p class="nunito-regular spaced">
+							Nosso consultório foi idealizado para ser um refúgio
+							seguro, onde você pode expressar suas emoções sem
+							medo de julgamentos. Aqui, cada atendimento é
+							conduzido com respeito e profissionalismo,
+							garantindo um ambiente que favoreça o seu bem-estar.
+						</p >
+						<p class="nunito-regular spaced">
+							Valorizamos a singularidade de cada trajetória,
+							adotando uma metodologia personalizada que o ajudará
+							a alcançar equilíbrio emocional e desenvolver
+							habilidades essenciais para enfrentar os desafios
+							diários.
+						</p>
+						<p class="nunito-regular spaced">
+							Estamos aqui para caminhar ao seu lado, seja para
+							superar momentos difíceis, buscar autoconhecimento
+							ou aprimorar sua qualidade de vida. Convidamos você
+							a conhecer nosso espaço e descobrir como juntos
+							podemos transformar desafios em oportunidades de
+							crescimento pessoal.
+						</p>
 					</aside>
 				</div>
 
-				<img
-					class="about-img"
-					src="/assets/about-img.61dd834262a938298cc8.png"
-					alt="Imagem de psicólogas"
-				/>
+				<div class="about-img">
+					<img
+						src="/assets/about-img.61dd834262a938298cc8.png"
+						alt="Imagem de psicólogas"
+					/>
+				</div>
 			</section>
 			<section id="team">
 				<h2 class="merriweather-bold">Nossa Equipe</h2>
-				<figure class="perfil-card">
-					<img
-						class="perfil-img"
-						src="/assets/elza.4fae789b67781f54d6fe.png"
-						alt="Psicologa Elza Marrocos"
-					/>
-					<figcaption>Psicóloga | CRP 06/6755-0</figcaption>
-					<aside class="perfil-internal-text">
-						<h3 class="merriweather-bold">Elza Marrocos</h3>
-						<ul>
-							<li>- Mestra em Saúde Materno Infantil</li>
-							<li>
-								- Formação Internacional em Psico Neuro
-								Linguística - PNL
-							</li>
-						</ul>
-						<button class="btn-schedule merriweather-bold">
-							<strong>Agende sua consulta</strong>
-							<i
-								class="fa-brands fa-whatsapp fa-xl"
-								style="color: #f9f9f4"
-							></i>
-						</button>
-					</aside>
-				</figure>
-				<figure class="perfil-card">
-					<img
-						class="perfil-img"
-						src="/assets/luciane.7a95566cb2bf5b17463d.png"
-						alt="Psicologa Luciane Bertunes"
-					/>
-					<figcaption>Psicóloga | CRP 06/193399</figcaption>
-					<aside class="perfil-internal-text">
-						<h3 class="merriweather-bold">Luciane Bertunes</h3>
-						<ul>
-							<li>- Pós graduada em avaliação psicólogica</li>
-							<li>- Terapeuta cognitiva comportamental</li>
-						</ul>
-						<button class="btn-schedule merriweather-bold">
-							<strong>Agende sua consulta</strong>
-							<i
-								class="fa-brands fa-whatsapp fa-xl"
-								style="color: #f9f9f4"
-							></i>
-						</button>
-					</aside>
-				</figure>
+				<div class="perfil-cards-container">
+					<figure class="perfil-card">
+						<img
+							class="perfil-img"
+							src="/assets/elza.4fae789b67781f54d6fe.png"
+							alt="Psicologa Elza Marrocos"
+						/>
+						<figcaption>Psicóloga | CRP 06/6755-0</figcaption>
+						<aside class="perfil-internal-text">
+							<h3 class="merriweather-bold">Elza Marrocos</h3>
+							<ul>
+								<li>- Mestra em Saúde Materno Infantil</li>
+								<li>
+									- Formação Internacional em Psico Neuro
+									Linguística - PNL
+								</li>
+							</ul>
+							<button class="btn-schedule merriweather-bold">
+								<strong>Agende sua consulta</strong>
+								<i
+									class="fa-brands fa-whatsapp fa-xl"
+									style="color: #f9f9f4"
+								></i>
+							</button>
+						</aside>
+					</figure>
+					<figure class="perfil-card">
+						<img
+							class="perfil-img"
+							src="/assets/luciane.7a95566cb2bf5b17463d.png"
+							alt="Psicologa Luciane Bertunes"
+						/>
+						<figcaption>Psicóloga | CRP 06/193399</figcaption>
+						<aside class="perfil-internal-text">
+							<h3 class="merriweather-bold">Luciane Bertunes</h3>
+							<ul>
+								<li>- Pós graduada em avaliação psicólogica</li>
+								<li>- Terapeuta cognitiva comportamental</li>
+							</ul>
+							<button class="btn-schedule merriweather-bold">
+								<strong>Agende sua consulta</strong>
+								<i
+									class="fa-brands fa-whatsapp fa-xl"
+									style="color: #f9f9f4"
+								></i>
+							</button>
+						</aside>
+					</figure>
+				</div>
 			</section>
 			<section id="room">
 				<aside class="internal-room-text">
 					<h2 class="merriweather-bold">Nosso Espaço</h2>
-					<p>
-						Cada detalhe do nosso consultório foi pensado para
-						proporcionar conforto, tranquilidade e bem-estar.
-						Criamos um ambiente acolhedor, onde você pode se sentir
-						à vontade para falar sobre suas emoções e vivências com
-						segurança e privacidade. Para as crianças, contamos com
-						um espaço kids preparado especialmente para tornar a
-						experiência mais leve e divertida, garantindo um
-						atendimento lúdico e adequado à idade. Nosso objetivo é
-						que, desde o primeiro momento, você sinta que está em um
-						lugar onde sua saúde mental é prioridade.
+					<p class="nunito-regular spaced">
+						Cada detalhe do nosso consultório foi cuidadosamente
+						planejado para proporcionar conforto, tranquilidade e
+						bem-estar. Pensamos em cada elemento para criar um
+						ambiente acolhedor, onde você se sinta à vontade para
+						compartilhar suas emoções e vivências com segurança e
+						privacidade.
+					</p>
+					<p class="nunito-regular spaced">
+						Valorizamos a importância de um espaço adaptado a todas
+						as idades. Por isso, desenvolvemos um ambiente kids
+						exclusivo, pensado para tornar a experiência das
+						crianças mais leve e divertida, oferecendo um
+						atendimento lúdico e adequado às suas necessidades.
+					</p>
+					<p class="nunito-regular spaced">
+						Nosso objetivo é fazer com que, desde o primeiro
+						contato, você perceba que está em um local onde a sua
+						saúde mental é a nossa prioridade. Estamos aqui para
+						acolher, escutar e apoiar cada passo da sua jornada.
 					</p>
 				</aside>
 				<div class="carousel-container">
@@ -440,22 +469,31 @@
 						(11) 91487-6619
 					</a>
 
-					<a href="https://www.instagram.com/cpsicoser/" target="_blank">
+					<a
+						href="https://www.instagram.com/cpsicoser/"
+						target="_blank"
+					>
 						<i class="fa-brands fa-instagram fa-xl"></i>@cpsicoser
 					</a>
 
 					<a href="mailto:psicoser@gmail.com" target="_blank">
-						<i class="fa-regular fa-envelope fa-xl" ></i>psicoser@gmail.com
+						<i class="fa-regular fa-envelope fa-xl"></i
+						>psicoser@gmail.com
 					</a>
 				</address>
-				
 			</aside>
 			<div class="wave-footer">
-				<img src="/assets/wave-footer.6f199c6ead0c777c0a1b.svg" alt="">
+				<img src="/assets/wave-footer.6f199c6ead0c777c0a1b.svg" alt="" />
 			</div>
 			<div class="bottom-footer">
-				<p>© 2025 - Todos os direitos reservados. Psicoser - Consultório de Psicologia. </p>
-				<p>Desenvolvido por <strong class="inter-bold">João Victor Inácio</strong></p>
+				<p class="nunito-regular spaced">
+					© 2025 - Todos os direitos reservados. Psicoser -
+					Consultório de Psicologia.
+				</p>
+				<p class="nunito-regular spaced">
+					Desenvolvido por
+					<strong class="nunito-bold">João Victor Inácio</strong>
+				</p>
 			</div>
 		</footer>
 	</body>
