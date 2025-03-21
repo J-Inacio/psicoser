@@ -29,6 +29,7 @@
 	justify-content: center;
 	background-color: var(--cor-fundo-branco);
 	width: 100%;
+	padding: 4rem 0rem;
 }
 
 .cta-card {
@@ -73,8 +74,6 @@
 .cta-btn strong {
 	font-size: 1.1rem;
 }
-
-
 
 .room-location-container {
 	display: flex;

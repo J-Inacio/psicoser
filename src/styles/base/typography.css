@@ -37,6 +37,7 @@
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    color: #09182D;
   }
 
   .nunito-bold {
@@ -44,6 +45,7 @@
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
+    /* color: #09182D; */
   }
 
   .spaced {

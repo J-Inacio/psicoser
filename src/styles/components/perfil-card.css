@@ -4,7 +4,6 @@
     align-items: center;
     justify-content: space-evenly;
     border-radius: 4px;
-    padding: 1rem 0rem;
     color: #09182D;
     background-color: var(--cor-fundo-branco);
     background-image: url('../../assets/img/big-wave.svg');
