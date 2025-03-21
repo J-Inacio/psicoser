@@ -21,15 +21,20 @@
 .perfil-internal-text {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     justify-content: space-evenly;
     padding: 0rem 1rem;
+    width: 90%;
     height: 35%;
+}
+
+.perfil-internal-text h3 {
+    align-self: flex-start;
 }
 
 .perfil-card ul {
     font-size: 0.8rem;
-    /* list-style: disc; */
+    width: 100%;
 }
 
 .perfil-img {

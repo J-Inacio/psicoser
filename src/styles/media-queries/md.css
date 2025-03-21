@@ -1,0 +1,5 @@
+@media screen and (min-width: 48rem) and (max-width: 64rem) {
+    body {
+        background-color: blue;
+    }
+}

@@ -13,9 +13,16 @@
 		></script>
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+			rel="stylesheet"
+		/>
 	</head>
 	<body>
 		<header class="header">
+			<!-- <div class="header-img-container">
+				<img src="./assets/img/header-img1.png" alt="">
+			</div> -->
 			<nav class="navbar">
 				<a href="/" class="logo-header-link"
 					><img
@@ -41,7 +48,7 @@
 					</i>
 				</div>
 			</nav>
-			<div class="inter-regular" id="mobile-sidebar" aria-hidden="true">
+			<div class="nunito-regular" id="mobile-sidebar" aria-hidden="true">
 				<div id="close-icon-div">
 					<i
 						class="fa-solid fa-xmark fa-xl"
@@ -72,21 +79,21 @@
 						<h1 class="merriweather-bold">
 							Bem-vindo ao Psicoser Consultório de Psicologia
 						</h1>
-						<aside class="merriweather-regular">
+						<aside class="nunito-regular spaced">
 							Nosso espaço foi pensado para proporcionar
-							<strong class="merriweather-bold"
+							<strong class="nunito-bold"
 								>acolhimento, conforto e bem-estar</strong
 							>
 							a cada pessoa que entra por aqui. Cada detalhe
 							reflete nosso compromisso com o cuidado e a escuta
 							atenta.
 						</aside>
-						<aside class="merriweather-regular">
+						<aside class="nunito-regular spaced">
 							Venha conhecer nosso ambiente e dar o primeiro passo
 							rumo ao seu bem-estar emocional!
 						</aside>
 					</section>
-					<button class="btn-schedule merriweather-bold">
+					<button class="btn-schedule nunito-bold">
 						<strong>Agende sua consulta</strong>
 
 						<i
@@ -106,9 +113,8 @@
 			<section id="services">
 				<h2 class="merriweather-bold">Serviços Oferecidos</h2>
 				<div class="service-card">
-					<div>
+					<div class="card-wave">
 						<img
-							class="card-wave"
 							src="./assets/img/cardWave2.svg"
 							alt="imagem ilustrativa"
 						/>
@@ -129,18 +135,16 @@
 							alt="Icone personagem com cerebro"
 						/>
 					</section>
-					<div>
+					<div class="card-wave">
 						<img
-							class="card-wave"
 							src="./assets/img/cardWave.svg"
 							alt="imagem ilustrativa"
 						/>
 					</div>
 				</div>
 				<div class="service-card">
-					<div>
+					<div class="card-wave">
 						<img
-							class="card-wave"
 							src="./assets/img/cardWave2.svg"
 							alt="imagem ilustrativa"
 						/>
@@ -160,18 +164,16 @@
 							alt="Icone personagem com cerebro"
 						/>
 					</section>
-					<div>
+					<div class="card-wave">
 						<img
-							class="card-wave"
 							src="./assets/img/cardWave.svg"
 							alt="imagem ilustrativa"
 						/>
 					</div>
 				</div>
 				<div class="service-card">
-					<div>
+					<div class="card-wave">
 						<img
-							class="card-wave"
 							src="./assets/img/cardWave2.svg"
 							alt="imagem ilustrativa"
 						/>
@@ -192,18 +194,16 @@
 							alt="Icone personagem com cerebro"
 						/>
 					</section>
-					<div>
+					<div class="card-wave">
 						<img
-							class="card-wave"
 							src="./assets/img/cardWave.svg"
 							alt="imagem ilustrativa"
 						/>
 					</div>
 				</div>
 				<div class="service-card">
-					<div>
+					<div class="card-wave">
 						<img
-							class="card-wave"
 							src="./assets/img/cardWave2.svg"
 							alt="imagem ilustrativa"
 						/>
@@ -223,21 +223,16 @@
 							alt="Icone personagem com cerebro"
 						/>
 					</section>
-					<div>
+					<div class="card-wave">
 						<img
-							class="card-wave"
 							src="./assets/img/cardWave.svg"
 							alt="imagem ilustrativa "
 						/>
 					</div>
 				</div>
 				<div class="service-card">
-					<div>
-						<img
-							class="card-wave"
-							src="./assets/img/cardWave2.svg"
-							alt=""
-						/>
+					<div class="card-wave">
+						<img src="./assets/img/cardWave2.svg" alt="" />
 					</div>
 					<section class="internal-card-text">
 						<h3 class="merriweather-bold">
@@ -254,18 +249,16 @@
 							alt="Icone personagem com cerebro"
 						/>
 					</section>
-					<div>
+					<div class="card-wave">
 						<img
-							class="card-wave"
 							src="./assets/img/cardWave.svg"
 							alt="imagem ilustrativa"
 						/>
 					</div>
 				</div>
 				<div class="service-card">
-					<div>
+					<div class="card-wave">
 						<img
-							class="card-wave"
 							src="./assets/img/cardWave2.svg"
 							alt="imagem ilustrativa"
 						/>
@@ -285,15 +278,14 @@
 							alt="Icone personagem com cerebro"
 						/>
 					</section>
-					<div>
+					<div class="card-wave">
 						<img
-							class="card-wave"
 							src="./assets/img/cardWave.svg"
 							alt="imagem ilustrativa"
 						/>
 					</div>
 				</div>
-				<button class="btn-schedule merriweather-bold">
+				<button class="btn-schedule nunito-bold">
 					<strong>Agende sua consulta</strong>
 					<i
 						class="fa-brands fa-whatsapp fa-xl"
@@ -304,27 +296,47 @@
 			<section id="about">
 				<div class="internal-about-text">
 					<h2 class="merriweather-bold">Sobre Nós</h2>
-					<aside class="inter-regular">
-						Cuidar da saúde mental é um caminho que exige
-						acolhimento, compreensão e confiança. Nosso consultório
-						foi criado para oferecer um espaço seguro, onde cada
-						pessoa é ouvida sem julgamentos e acompanhada com
-						respeito e profissionalismo. Acreditamos que cada
-						história é única e, por isso, trabalhamos com uma
-						abordagem personalizada, ajudando você a encontrar
-						equilíbrio emocional, desenvolver habilidades para lidar
-						com desafios e construir relações mais saudáveis. Seja
-						para enfrentar momentos difíceis, buscar
-						autoconhecimento ou melhorar sua qualidade de vida,
-						estamos aqui para caminhar ao seu lado. 💙
+					<aside class="nunito-regular spaced">
+						<p>
+							Cuidar da saúde mental é uma jornada que requer
+							acolhimento, compreensão e, acima de tudo,
+							confiança. Reconhecemos que cada pessoa possui suas
+							particularidades e, por isso, nossa abordagem inicia
+							com o respeito à individualidade de cada história.
+						</p>
+						<p>
+							Nosso consultório foi idealizado para ser um refúgio
+							seguro, onde você pode expressar suas emoções sem
+							medo de julgamentos. Aqui, cada atendimento é
+							conduzido com respeito e profissionalismo,
+							garantindo um ambiente que favoreça o seu bem-estar.
+						</p>
+						<p>
+							Valorizamos a singularidade de cada trajetória,
+							adotando uma metodologia personalizada que o ajudará
+							a alcançar equilíbrio emocional e desenvolver
+							habilidades essenciais para enfrentar os desafios
+							diários.
+						</p>
+						<p>
+							Estamos aqui para caminhar ao seu lado, seja para
+							superar momentos difíceis, buscar autoconhecimento
+							ou aprimorar sua qualidade de vida. Convidamos você
+							a conhecer nosso espaço e descobrir como juntos
+							podemos transformar desafios em oportunidades de
+							crescimento pessoal.
+						</p>
 					</aside>
 				</div>
 
-				<img
-					class="about-img"
+				<div class="about-img"> 
+					<img
+					
 					src="./assets/img/about-img.png"
 					alt="Imagem de psicólogas"
 				/>
+				</div>
+				
 			</section>
 			<section id="team">
 				<h2 class="merriweather-bold">Nossa Equipe</h2>
@@ -440,22 +452,31 @@
 						(11) 91487-6619
 					</a>
 
-					<a href="https://www.instagram.com/cpsicoser/" target="_blank">
+					<a
+						href="https://www.instagram.com/cpsicoser/"
+						target="_blank"
+					>
 						<i class="fa-brands fa-instagram fa-xl"></i>@cpsicoser
 					</a>
 
 					<a href="mailto:psicoser@gmail.com" target="_blank">
-						<i class="fa-regular fa-envelope fa-xl" ></i>psicoser@gmail.com
+						<i class="fa-regular fa-envelope fa-xl"></i
+						>psicoser@gmail.com
 					</a>
 				</address>
-				
 			</aside>
 			<div class="wave-footer">
-				<img src="./assets/img/wave-footer.svg" alt="">
+				<img src="./assets/img/wave-footer.svg" alt="" />
 			</div>
 			<div class="bottom-footer">
-				<p>© 2025 - Todos os direitos reservados. Psicoser - Consultório de Psicologia. </p>
-				<p>Desenvolvido por <strong class="inter-bold">João Victor Inácio</strong></p>
+				<p>
+					© 2025 - Todos os direitos reservados. Psicoser -
+					Consultório de Psicologia.
+				</p>
+				<p>
+					Desenvolvido por
+					<strong class="nunito-bold">João Victor Inácio</strong>
+				</p>
 			</div>
 		</footer>
 	</body>

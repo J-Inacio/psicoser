@@ -1,3 +1,5 @@
+
+
 #team {
     display: flex;
     flex-direction: column;
@@ -5,4 +7,5 @@
     background-color: #DFD7E6;
     color: var(--cor-secundaria-azul-escuro);
     height: 70rem;
+    
 }

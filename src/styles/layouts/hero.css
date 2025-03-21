@@ -3,6 +3,7 @@
     height: 25rem;
     background-color: var(--cor-primaria-azul);
     color: var(--cor-secundaria-azul-escuro);
+    
 }
 
 .wave-div {
@@ -17,6 +18,7 @@
 
 .wave {
     width: 100%;
+    max-height: 7rem;
 }
 
 .internal-hero-container {
@@ -28,14 +30,21 @@
 }
 
 .hero-text {
-    padding: 2rem;
+    padding: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
     height: 60%;
 }
 
 .hero-text h1 {
+    max-width: 20.3rem;
     text-align: center;
-    font-size: 1.3rem;
+    font-size: 1.25rem;
+    text-shadow: 0 5px 4px var(--cor-secundaria-azul-escuro);
+    -webkit-text-stroke: 1px var(--cor-secundaria-azul-escuro);
+    letter-spacing: .125rem;
+    word-spacing: 4px;
+    padding: .5rem 0rem;
 }

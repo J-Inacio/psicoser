@@ -19,6 +19,7 @@
 }
 
 .footer-text-container h2 {
+    color: var(--cor-fundo-branco);
     padding: 1rem 0rem;
     letter-spacing: 6px;
 }

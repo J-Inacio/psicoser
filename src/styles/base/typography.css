@@ -14,8 +14,6 @@
 	font-style: normal;
 }
 
-
-
 .merriweather-regular {
     font-family: "Merriweather", serif;
     font-optical-sizing: auto;
@@ -34,16 +32,20 @@
       "wdth" 100;
   }
 
-  .montserrat-regular {
-    font-family: "Montserrat", sans-serif;
+  .nunito-regular {
+    font-family: "Nunito", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
   }
 
-  .montserrat-bold {
-    font-family: "Montserrat", sans-serif;
+  .nunito-bold {
+    font-family: "Nunito", sans-serif;
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
+  }
+
+  .spaced {
+    word-spacing: .15rem;
   }
