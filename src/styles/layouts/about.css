@@ -1,37 +1,44 @@
 #about {
     color: var(--cor-secundaria-azul-escuro);
-    padding: 1rem;
+    /* padding: 1rem; */
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
     text-align: left;
+    gap: 1rem;
+    /* background-image: url('../../assets/img/about1-img.jpg');
+    background-size: cover;
+    background-position: center; */
     background-color: #F9F6FE;
     width: auto;
+    
 }
 
 .about-img {
-    display: flex;
+    display: block;
     align-items: center;
     justify-content: center;
     width: 100%;
-    padding: 1rem;
 }
 
 .about-img img {
-    max-width: 25rem;
     width: 100%;
+    /* max-width: 30rem; */
+    max-height: 25rem;
+    object-fit: cover;
+    object-position: center;
 }
 
 .internal-about-text {
     display: flex;
     flex-direction: column;
     row-gap: 1rem;
+    padding: 1rem;
 
 }
 
 #about h2 {
-    margin-top: .5rem;
     font-size: 2rem;
 }
 

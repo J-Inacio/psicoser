@@ -1,3 +1,7 @@
+/* body {
+    background-color: var(--cor-fundo-branco);
+} */
+
 /* layouts */
 @import url('./layouts/header.css');
 @import url('./layouts/sidebar.css');
