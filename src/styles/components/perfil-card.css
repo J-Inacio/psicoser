@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    gap: 1rem;
     border-radius: 4px;
     color: #09182D;
     background-color: var(--cor-fundo-branco);
@@ -20,10 +20,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    gap: 1.5rem;
     padding: 0rem 1rem;
     width: 90%;
-    height: 35%;
 }
 
 .perfil-internal-text h3 {
@@ -33,12 +32,17 @@
 .perfil-card ul {
     font-size: 0.8rem;
     width: 100%;
+    height: 2.5rem;
 }
 
 .perfil-img {
-    border-radius: 4px;
-    width: 16rem;
+    border-radius: none;
+    width: 100%;
     height: auto;
+}
+
+.perfil-img img {
+    border-radius: none;
 }
 
 .perfil-btn {

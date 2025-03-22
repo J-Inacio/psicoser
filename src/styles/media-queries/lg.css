@@ -132,4 +132,28 @@
         max-height: 40rem;
     }
 
+    /* team */
+
+    #team {
+        gap: 2rem;
+        padding: 4rem 0rem;
+    }
+    .perfil-cards-container {
+        gap: 0;
+        justify-content: space-evenly;
+    }
+
+    .perfil-card {
+        width: 20rem;
+        align-items: center;
+        /* height: 30rem; */
+        object-fit: cover;
+        height: 35rem;
+    }
+
+    .perfil-img {
+        object-fit: cover;
+        width: 100%;
+    }
+
 }
