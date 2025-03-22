@@ -20,9 +20,6 @@
 	<script defer src="/main.min.js"></script></head>
 	<body>
 		<header class="header">
-			<!-- <div class="header-img-container">
-				<img src="./assets/img/header-img1.png" alt="">
-			</div> -->
 			<nav class="navbar">
 				<a href="/" class="logo-header-link"
 					><img
@@ -48,11 +45,11 @@
 					</i>
 				</div>
 			</nav>
-			<div class="nunito-regular" id="mobile-sidebar" aria-hidden="true">
+			<div class="mobile-sidebar nunito-regular">
 				<div id="close-icon-div">
 					<i
-						class="fa-solid fa-xmark fa-xl"
-						style="color: #f9f9f4"
+						class="fa-solid fa-xmark x-icon"
+						style="color: #ffffff"
 					></i>
 				</div>
 
@@ -75,11 +72,11 @@
 					/>
 				</div>
 				<div class="internal-hero-container">
-					<section class="hero-text">
-						<h1 class="merriweather-bold">
-							Bem-vindo ao Psicoser Consultório de Psicologia
+					<aside class="hero-text">
+						<h1 class="nunito-bold">
+							Descubra um espaço de acolhimento e transformação para sua mente!
 						</h1>
-						<aside class="nunito-regular spaced">
+						<p class="nunito-regular spaced">
 							Nosso espaço foi pensado para proporcionar
 							<strong class="nunito-bold"
 								>acolhimento, conforto e bem-estar</strong
@@ -87,20 +84,23 @@
 							a cada pessoa que entra por aqui. Cada detalhe
 							reflete nosso compromisso com o cuidado e a escuta
 							atenta.
-						</aside>
-						<aside class="nunito-regular spaced">
+						</p>
+						<p class="nunito-regular spaced">
 							Venha conhecer nosso ambiente e dar o primeiro passo
 							rumo ao seu bem-estar emocional!
-						</aside>
-					</section>
-					<button class="btn-schedule nunito-bold">
+						</p>
+					</aside>
+					<a
+						href="https://wa.me/5511914876619?text=Olá,%20gostaria%20de%20marcar%20uma sessão"
+						target="_blank"
+						class="btn-schedule nunito-bold"
+					>
 						<strong>Agende sua consulta</strong>
-
 						<i
 							class="fa-brands fa-whatsapp fa-xl"
 							style="color: #f9f9f4"
 						></i>
-					</button>
+					</a>
 				</div>
 				<div>
 					<img
@@ -111,7 +111,7 @@
 				</div>
 			</section>
 			<section id="services">
-				<h2 class="merriweather-bold">Serviços</h2>
+				<h2 class="nunito-bold">Serviços</h2>
 				<div class="cards">
 					<div class="service-card">
 						<div class="card-wave">
@@ -121,16 +121,16 @@
 							/>
 						</div>
 						<section class="internal-card-text">
-							<h3 class="merriweather-bold">
+							<h3 class="nunito-bold">
 								Atendimento Psicológico Individual
 							</h3>
-							<aside class="nunito-regular spaced">
+							<p class="nunito-regular spaced">
 								Cuidar da sua saúde mental é essencial.
 								Oferecemos um espaço acolhedor para adultos,
 								adolescentes e crianças, ajudando a compreender
 								emoções, superar desafios e encontrar
 								equilíbrio.
-							</aside>
+							</p>
 							<img
 								class="card-img"
 								src="/assets/brainIcon.3a7168cc4f300ad7d70f.svg"
@@ -144,6 +144,7 @@
 							/>
 						</div>
 					</div>
+					
 					<div class="service-card">
 						<div class="card-wave">
 							<img
@@ -152,14 +153,14 @@
 							/>
 						</div>
 						<section class="internal-card-text">
-							<h3 class="merriweather-bold">
+							<h3 class="nunito-bold">
 								Terapia de Casal e Familiar
 							</h3>
-							<aside class="nunito-regular spaced">
+							<p class="nunito-regular spaced">
 								Relacionamentos saudáveis transformam vidas.
 								Fortaleça os laços, melhore a comunicação e
 								construa conexões mais leves e harmoniosas.
-							</aside>
+							</p>
 							<img
 								class="card-img"
 								src="/assets/health-mental.5b3247511d44e583b527.svg"
@@ -181,15 +182,15 @@
 							/>
 						</div>
 						<section class="internal-card-text">
-							<h3 class="merriweather-bold">
+							<h3 class="nunito-bold">
 								Gestão do Estresse e Ansiedade
 							</h3>
-							<aside class="nunito-regular spaced">
+							<p class="nunito-regular spaced">
 								A rotina pode ser desgastante, mas você não
 								precisa enfrentá-la sozinho. Aprenda estratégias
 								para reduzir o estresse e lidar melhor com a
 								ansiedade no dia a dia.
-							</aside>
+							</p>
 							<img
 								class="card-img"
 								src="/assets/brainIcon.3a7168cc4f300ad7d70f.svg"
@@ -211,15 +212,15 @@
 							/>
 						</div>
 						<section class="internal-card-text">
-							<h3 class="merriweather-bold">
+							<h3 class="nunito-bold">
 								Desenvolvimento Emocional e Autoestima
 							</h3>
-							<aside class="nunito-regular spaced">
+							<p class="nunito-regular spaced">
 								Sentir-se bem consigo mesmo faz toda a
 								diferença. Trabalhe sua autoconfiança, aprenda a
 								lidar com emoções e construa uma versão mais
 								forte de si.
-							</aside>
+							</p>
 							<img
 								class="card-img"
 								src="/assets/health-mental.5b3247511d44e583b527.svg"
@@ -238,15 +239,15 @@
 							<img src="/assets/cardWave2.65e38b12169bf2692f15.svg" alt="" />
 						</div>
 						<section class="internal-card-text">
-							<h3 class="merriweather-bold">
+							<h3 class="nunito-bold">
 								Orientação Profissional e de Carreira
 							</h3>
-							<aside class="nunito-regular spaced">
+							<p class="nunito-regular spaced">
 								Seja para escolher um caminho ou lidar com
 								desafios profissionais, te ajudamos a tomar
 								decisões mais seguras e alinhadas com seus
 								objetivos.
-							</aside>
+							</p>
 							<img
 								class="card-img"
 								src="/assets/brainIcon.3a7168cc4f300ad7d70f.svg"
@@ -268,16 +269,16 @@
 							/>
 						</div>
 						<section class="internal-card-text">
-							<h3 class="merriweather-bold">
+							<h3 class="nunito-bold">
 								Palestras e Workshops sobre Saúde Mental no
 								Trabalho
 							</h3>
-							<aside class="nunito-regular spaced">
+							<p class="nunito-regular spaced">
 								Colaboradores saudáveis são mais produtivos.
 								Leve conhecimento sobre saúde mental para sua
 								equipe e fortaleça um ambiente de trabalho mais
 								equilibrado.
-							</aside>
+							</p>
 							<img
 								class="card-img"
 								src="/assets/brainIcon.3a7168cc4f300ad7d70f.svg"
@@ -293,17 +294,21 @@
 					</div>
 				</div>
 
-				<button class="btn-schedule nunito-bold service-btn">
-					<strong>Agende sua consulta</strong>
-					<i
-						class="fa-brands fa-whatsapp fa-xl"
-						style="color: #f9f9f4"
-					></i>
-				</button>
+				<a
+						href="https://wa.me/5511914876619?text=Olá,%20gostaria%20de%20marcar%20uma sessão"
+						target="_blank"
+						class="btn-schedule nunito-bold service-btn"
+					>
+						<strong>Agende sua consulta</strong>
+						<i
+							class="fa-brands fa-whatsapp fa-xl"
+							style="color: #f9f9f4"
+						></i>
+					</a>
 			</section>
 			<section id="about">
 				<div class="internal-about-text">
-					<h2 class="merriweather-bold">Sobre Nós</h2>
+					<h2 class="nunito-bold">Sobre Nós</h2>
 					<aside class="nunito-regular spaced">
 						<p class="nunito-regular spaced">
 							Cuidar da saúde mental é uma jornada que requer
@@ -318,7 +323,7 @@
 							medo de julgamentos. Aqui, cada atendimento é
 							conduzido com respeito e profissionalismo,
 							garantindo um ambiente que favoreça o seu bem-estar.
-						</p >
+						</p>
 						<p class="nunito-regular spaced">
 							Valorizamos a singularidade de cada trajetória,
 							adotando uma metodologia personalizada que o ajudará
@@ -339,13 +344,13 @@
 
 				<div class="about-img">
 					<img
-						src="/assets/about-img.61dd834262a938298cc8.png"
+						src="/assets/about1-img.c30fad37915fc8d6104b.jpg"
 						alt="Imagem de psicólogas"
 					/>
 				</div>
 			</section>
 			<section id="team">
-				<h2 class="merriweather-bold">Nossa Equipe</h2>
+				<h2 class="nunito-bold">Nossa Equipe</h2>
 				<div class="perfil-cards-container">
 					<figure class="perfil-card">
 						<img
@@ -355,7 +360,7 @@
 						/>
 						<figcaption>Psicóloga | CRP 06/6755-0</figcaption>
 						<aside class="perfil-internal-text">
-							<h3 class="merriweather-bold">Elza Marrocos</h3>
+							<h3 class="nunito-bold">Elza Marrocos</h3>
 							<ul>
 								<li>- Mestra em Saúde Materno Infantil</li>
 								<li>
@@ -363,13 +368,17 @@
 									Linguística - PNL
 								</li>
 							</ul>
-							<button class="btn-schedule merriweather-bold">
+							<a
+								href="https://wa.me/5511914876619?text=Olá,%20gostaria%20de%20marcar%20uma sessão%20com%20a%20Psicóloga%20Elza"
+								target="_blank"
+								class="btn-schedule nunito-bold perfil-btn"
+							>
 								<strong>Agende sua consulta</strong>
 								<i
 									class="fa-brands fa-whatsapp fa-xl"
 									style="color: #f9f9f4"
 								></i>
-							</button>
+							</a>
 						</aside>
 					</figure>
 					<figure class="perfil-card">
@@ -380,25 +389,29 @@
 						/>
 						<figcaption>Psicóloga | CRP 06/193399</figcaption>
 						<aside class="perfil-internal-text">
-							<h3 class="merriweather-bold">Luciane Bertunes</h3>
+							<h3 class="nunito-bold">Luciane Bertunes</h3>
 							<ul>
 								<li>- Pós graduada em avaliação psicólogica</li>
 								<li>- Terapeuta cognitiva comportamental</li>
 							</ul>
-							<button class="btn-schedule merriweather-bold">
+							<a
+								href="https://wa.me/5511914876619?text=Olá,%20gostaria%20de%20marcar%20uma sessão%20com%20a%20Psicóloga%20Luciane"
+								target="_blank"
+								class="btn-schedule nunito-bold perfil-btn"
+							>
 								<strong>Agende sua consulta</strong>
 								<i
 									class="fa-brands fa-whatsapp fa-xl"
 									style="color: #f9f9f4"
 								></i>
-							</button>
+							</a>
 						</aside>
 					</figure>
 				</div>
 			</section>
 			<section id="room">
 				<aside class="internal-room-text">
-					<h2 class="merriweather-bold">Nosso Espaço</h2>
+					<h2 class="nunito-bold">Nosso Espaço</h2>
 					<p class="nunito-regular spaced">
 						Cada detalhe do nosso consultório foi cuidadosamente
 						planejado para proporcionar conforto, tranquilidade e
@@ -435,13 +448,33 @@
 						<button id="next">&#10095;</button>
 					</div>
 				</div>
-				<button class="btn-schedule merriweather-bold">
-					<strong>Agende sua consulta</strong>
-					<i
-						class="fa-brands fa-whatsapp fa-xl"
-						style="color: #f9f9f4"
-					></i>
-				</button>
+
+				<section class="cta-container">
+					<div class="cta-card">
+						<aside class="cta-text">
+							<h3 class="nunito-bold">
+								Transforme sua vida hoje mesmo!
+							</h3>
+							<p class="nunito-regular spaced">
+								Não deixe para amanhã o que pode ser feito hoje.
+								Aqui, a terapia é leve e profissional. Venha
+								conhecer um espaço onde você é ouvido e
+								acolhido!
+							</p>
+						</aside>
+						<a
+							href="https://wa.me/5511914876619?text=Olá,%20gostaria%20de%20marcar%20uma sessão"
+							target="_blank"
+							class="btn-schedule nunito-bold cta-btn"
+						>
+							<strong>Agende sua consulta</strong>
+							<i
+								class="fa-brands fa-whatsapp fa-xl"
+								style="color: #f9f9f4"
+							></i>
+						</a>
+					</div>
+				</section>
 				<div class="room-location-container">
 					<iframe
 						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.7612090935163!2d-46.85386072383504!3d-23.720219978691077!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cfad6cef95d757%3A0xafbe70a69e0b10ff!2sR.%20Manoel%20M%C3%A1ximino%20da%20Rosa%2C%20103%20-%20Centro%2C%20Itapecerica%20da%20Serra%20-%20SP%2C%2006871-000!5e0!3m2!1spt-BR!2sbr!4v1742163056158!5m2!1spt-BR!2sbr"
@@ -459,7 +492,7 @@
 				alt="logo-tipo psicoser"
 			/>
 			<aside class="footer-text-container">
-				<h2 class="merriweather-bold">FORMAS DE CONTATO</h2>
+				<h2 class="nunito-bold">FORMAS DE CONTATO</h2>
 				<address class="footer-links">
 					<a href="https://wa.me/5511914876619" target="_blank">
 						<i

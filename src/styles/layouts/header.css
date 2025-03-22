@@ -14,19 +14,10 @@
 	background-position: center;
 }
 
-.header-img-container {
-	width: 100%;
-	overflow: hidden;
-}
-
-.header-img-container img {
-	width: 100%;
-	/* position: sticky; */
-	z-index: -1;
-
-}
 .logo-header-link {
-	height: 10%;
+	display: flex;
+	align-items: center;
+	height: 100%;
 }
 
 #logo-header {
@@ -43,7 +34,6 @@
 	position: fixed;
 	top: 0%;
 	z-index: 1;
-	/* background-color: var(--cor-primaria-azul); */
 	background: transparent;
 	backdrop-filter: blur(10px);
 }
