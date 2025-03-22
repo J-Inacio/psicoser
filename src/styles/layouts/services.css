@@ -6,6 +6,8 @@
     color: var(--cor-secundaria-azul-escuro);
     margin-top: 10rem;
     padding: 1rem;
+    scroll-margin-top: 3rem;
+    scroll-behavior: smooth;
 }
 
 .service-btn {
