@@ -11,6 +11,7 @@
 @import url('./layouts/team.css');
 @import url('./layouts/room.css');
 @import url('./layouts/footer.css');
+@import url('./layouts/cta.css');
 
 /* components */
 @import url('./components/btn-schedule.css');

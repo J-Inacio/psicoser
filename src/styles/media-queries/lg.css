@@ -1,7 +1,4 @@
 @media screen and (min-width: 64rem) {
-    body {
-        background-color: red;
-    }
 
      /* animações navbar */
      @keyframes hoverEffect {
@@ -99,7 +96,7 @@
     }
 
     /* services */
-    .internal-card-text h3 {
+    .internal-card-text h3{
 		font-size: 1.5rem;
 	}
 
@@ -154,6 +151,25 @@
     .perfil-img {
         object-fit: cover;
         width: 100%;
+    }
+
+    /* room */
+    #room {
+        padding: 2rem 0rem;
+    }
+
+    .cta-card {
+        gap: 5rem;
+    }
+
+    .cta-text h3 {
+        font-size: 2.5rem;
+    }
+
+    .cta-text p {
+        align-self: center;
+        width: 75%;
+        /* padding: 0rem 4rem; */
     }
 
 }
