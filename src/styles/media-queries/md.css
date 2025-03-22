@@ -1,46 +1,53 @@
 @media screen and (min-width: 48rem) and (max-width: 64rem) {
-    body {
-        /* background-color: blue; */
-    }
 
-    .hero-text h1 {
-        font-size: 2rem;
-        width: 100%;
-    }
+    .header {
+		height: 25rem;
+	}
+	.wave-div {
+		height: 25rem;
+	}
 
-    #services {
-        padding: 1rem 1rem 2rem 1rem;
-    }
 
-    .cards {
-        gap: 3rem;
-    }
+	.hero-text h1 {
+		font-size: 2rem;
+		width: 100%;
+	}
 
-    .internal-card-text h3 {
-        font-size: 1.5rem;
-    }
+	#services {
+		padding: 1rem 1rem 2rem 1rem;
+	}
 
-    .internal-card-text p {
-        font-size: 1.1rem;
-    }
+	.cards {
+		gap: 3rem;
+	}
 
-    .internal-about-text {
-        padding: 2rem 1rem;
-    }
+	.internal-card-text h3 {
+		font-size: 1.5rem;
+	}
 
-    .internal-about-text aside, .internal-room-text, .hero-text p {
-        font-size: 1.2rem;
-    }
+	.internal-card-text p {
+		font-size: 1.1rem;
+	}
 
-    #team {
-        padding: 2rem 0rem;
-    }
+	.internal-about-text {
+		padding: 2rem 1rem;
+	}
 
-   .perfil-cards-container {
-    justify-content: space-evenly;
-   }
+	.internal-about-text aside,
+	.internal-room-text,
+	.hero-text p {
+		font-size: 1.2rem;
+	}
 
-   .map-container iframe {
-    height: 300px;
-}
+	#team {
+		padding: 2rem 0rem;
+	}
+
+	.perfil-cards-container {
+		justify-content: space-evenly;
+	}
+
+	.map-container iframe {
+		height: 300px;
+	}
 }

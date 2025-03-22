@@ -3,6 +3,12 @@
         background-color: red;
     }
 
+     /* animações navbar */
+     @keyframes hoverEffect {
+        0% { transform: scale(1); }
+        100% { transform: scale(1.1); }
+    }
+
     .navbar {
         padding: 1rem;
         display: flex;
@@ -19,10 +25,32 @@
         display: none;
     }
 
-    /* animações navbar */
-    @keyframes hoverEffect {
-        0% { transform: scale(1); }
-        100% { transform: scale(1.1); }
+   .header {
+    height: 30rem;
+   }
+
+   .wave-div {
+    height: 30rem;
+   }
+
+    #hero-section {
+        padding: 1rem 0rem;
+    }
+
+    #hero-section h1 {
+        font-size: 2rem;
+    }
+
+    .hero-text {
+        width: 70%;
+    }
+
+    .internal-hero-container {
+        gap: 1rem;
+    }
+
+    .internal-about-text aside, .internal-room-text, .hero-text p {
+        font-size: 1.3rem;
     }
 
     #services, #about,#room{
