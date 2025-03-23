@@ -1,6 +1,5 @@
 .header {
 	min-width: 260px;
-	width: 100vw;
 	height: 16rem;
 	background-image: linear-gradient(
 			to bottom,
@@ -43,7 +42,8 @@
 	font-size: 1.5rem;
 	width: 1.5rem;
 	height: 1.5rem;
-	margin: 1rem;
+	padding: 1rem;
+	cursor: pointer;
 }
 
 .desktop-menu {

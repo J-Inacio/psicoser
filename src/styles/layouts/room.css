@@ -8,6 +8,7 @@
 	color: var(--cor-secundaria-azul-escuro);
 	background-color: var(--cor-primaria-azul);
 	scroll-margin-top: 3rem;
+	padding: 2rem 0rem;
 }
 
 #room h2 {

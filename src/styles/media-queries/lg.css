@@ -15,7 +15,6 @@
 
     .logo-header-link {
         height: 100%;
-       padding-left: 1rem;
     }
 
     .menu-toggle {
@@ -127,6 +126,7 @@
         border-radius: 1rem;
         width: 70%;
         max-height: 40rem;
+        box-shadow: .25rem .75rem .75rem 0px rgba(0, 0, 0, 0.25);
     }
 
     /* team */
@@ -158,6 +158,12 @@
         padding: 2rem 0rem;
     }
 
+    .internal-room-text {
+        padding: 2rem;
+    }
+
+
+    /* call to action  */
     .cta-card {
         gap: 5rem;
     }
@@ -170,6 +176,35 @@
         align-self: center;
         width: 75%;
         /* padding: 0rem 4rem; */
+    }
+
+    /* footer */
+    #contact {
+    }
+
+    .contacts-address {
+        display: flex;
+        padding: 2rem;
+    }
+
+    .room-location-container {
+        order: 2;
+        width: 50%;
+        border-radius: 1rem;
+    }
+
+    .room-location-container iframe {
+        border-radius: 1rem;
+    }
+
+    .footer-text-container {
+        gap: 1rem;
+        width: 50%;
+        /* height: 40rem; */
+    }
+
+    .logo-footer {
+        width: 15rem;
     }
 
 }
