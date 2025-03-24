@@ -4,7 +4,7 @@
     justify-content: center;
     gap: 2rem;
     color: var(--cor-secundaria-azul-escuro);
-    margin-top: 4rem;
+    margin: 3rem 0rem;
     padding: 1rem;
     scroll-margin-top: 3rem;
     scroll-behavior: smooth;
