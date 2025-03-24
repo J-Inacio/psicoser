@@ -25,12 +25,12 @@
         display: none;
     }
 
-   .header, .wave-div {
-    height: 35rem;
+   .hero-background {
+    height: 25rem;
    }
 
     #hero-section {
-        padding: 1rem 0rem;
+        padding: 2rem;
     }
 
     #hero-section h1 {

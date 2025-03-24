@@ -10,6 +10,14 @@ import "../styles/main.css";
 const menuBtn = document.querySelector(".menu-toggle");
 const sidebar = document.querySelector(".mobile-sidebar");
 const closeSidebarBtn = document.querySelector('.x-icon')
+const linksMenu = document.querySelectorAll('.mobile-links > li')
+
+
+linksMenu.forEach(link => {
+	link.addEventListener("click", () => {
+		sidebar.classList.remove('open')
+	})
+})
 
 closeSidebarBtn.addEventListener('click', () => {
     sidebar.classList.remove('open')

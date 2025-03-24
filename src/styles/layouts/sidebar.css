@@ -1,38 +1,23 @@
 .mobile-sidebar {
-	/* min-width: 300px;
 	position: fixed;
-	z-index: 1;
-	background-color: var(--cor-primaria-azul);
-	width: 100dvw;
-	height: 100vh;
-	background: rgb(175, 206, 227);
-	background: linear-gradient(
-		180deg,
-		rgba(175, 206, 227, 1) 80%,
-		rgba(254, 254, 254, 1) 100%
-	);
-	display: none;
-	max-width: none; */
-
-	position: fixed;
-	inset: 0; /* Alternativa moderna ao width/height */
-	max-width: none !important; /* Garante que não há limitação */
+	inset: 0;
+	max-width: none; 
 	min-width: unset;
 	width: 100vw;
 	height: 100vh;
-	z-index: 9999;
+	z-index: 10;
 	background: linear-gradient(
 	  180deg,
 	  rgba(175, 206, 227, 1) 80%,
 	  rgba(254, 254, 254, 1) 100%
 	);
   
-	transform: translateX(200%); /* Esconde a sidebar fora da tela */
-	transition: transform 0.3s ease-in-out; /* Faz a animação */
+	transform: translateX(200%);
+	transition: transform 0.3s ease-in-out;
 }
 
 .mobile-sidebar.open {
-	transform: translateX(0); /* Move a sidebar para dentro da tela */
+	transform: translateX(0);
   }
 
 
@@ -42,7 +27,6 @@
 	flex-direction: column;
 	align-items: center;
 	padding-top: 4rem;
-	justify-content: baseline;
 	row-gap: 10%;
 }
 
