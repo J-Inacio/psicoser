@@ -2,6 +2,8 @@
     background-color: var(--cor-fundo-branco);
 } */
 
+@import url('./base/variables.css');
+
 /* components */
 @import url('./components/btn-schedule.css');
 @import url('./components/service-card.css');
@@ -25,7 +27,7 @@
 @import url('./media-queries/xl.css');
 
 
-@import url('./base/variables.css');
+
 
 html {
     scroll-behavior: smooth;
