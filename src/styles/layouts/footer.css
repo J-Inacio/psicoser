@@ -14,8 +14,8 @@
 }
 
 .footer-line {
-    margin: 0rem 1rem;
-	border-top: 1px solid var(--cor-secundaria-azul-escuro);
+    margin: 0rem 2rem;
+	border-top: 2px solid var(--cor-primaria-azul);
 }
 
 .room-location-container {

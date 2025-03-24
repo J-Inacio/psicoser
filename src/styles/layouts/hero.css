@@ -23,6 +23,7 @@
 .internal-hero-container {
     height: 100%;
     display: flex;
+    gap: 2rem;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
@@ -43,4 +44,8 @@
     letter-spacing: .125rem;
     word-spacing: 1px;
     padding: .5rem 0rem;
+}
+
+.hero-btn {
+    /* width: 10rem; */
 }

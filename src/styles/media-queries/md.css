@@ -13,6 +13,12 @@
 		width: 100%;
 	}
 
+	.hero-btn {
+        font-size: 1.5rem;
+        height: 5rem;
+        width: 15rem;
+    }
+
 	#services {
 		padding: 1rem 1rem 2rem 1rem;
 	}
@@ -45,6 +51,12 @@
 
 	.perfil-cards-container {
 		justify-content: space-evenly;
+	}
+
+	.cta-btn {
+		font-size: 1.5rem;
+        height: 4rem;
+        width: 16rem;
 	}
 
 	.map-container iframe {
