@@ -1,5 +1,6 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 // const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 // const isDev = process.env.NODE_ENV === "development";
 
@@ -10,7 +11,7 @@ module.exports = {
 		path: path.resolve(__dirname, "./dist"),
 		publicPath: "/",
 	},
-	mode: "development",
+	mode: "production",
 	devServer: {
 		static: {
 			directory: path.resolve(__dirname, "./dist"),
@@ -24,7 +25,7 @@ module.exports = {
 			// ========== CSS ==========
 			{
 				test: /\.css$/,
-				use: ["style-loader", "css-loader"],
+				use: [MiniCssExtractPlugin.loader, "css-loader"],
 			},
 
 			// ========== JavaScript ==========
@@ -74,15 +75,15 @@ module.exports = {
 		],
 	},
 	plugins: [
-		// new MiniCssExtractPlugin({
-		// 	filename: "index.css",
-		// }),
+		new MiniCssExtractPlugin({
+			filename: "main.min.css",
+		}),
 		// Gera HTML com os scripts injetados
 		new HtmlWebpackPlugin({
 			filename: "index.html", // Nome do output
 			port: 8080,
 			template: "src/index.html",
-			// minify: true,
+			minify: true,
 		}),
 	],
 };
