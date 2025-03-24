@@ -2,4 +2,5 @@
     --cor-primaria-azul: #AFCEE3;
     --cor-secundaria-azul-escuro: #192B5B;
     --cor-fundo-branco: #F9F9F4;
+    --sombra: .25rem .75rem .75rem 0px rgba(0, 0, 0, 0.25);
 }

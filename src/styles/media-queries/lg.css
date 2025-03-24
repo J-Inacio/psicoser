@@ -1,5 +1,9 @@
 @media screen and (min-width: 64rem) and ((max-width: 90rem)){
 
+
+    .internal-about-text p, .hero-text p, .internal-room-text p, .cta-text p, .footer-text-container h2  {
+        font-size: 1.25rem;
+    }
     
     @keyframes hoverEffect {
         0% { transform: scale(1); }
@@ -87,6 +91,16 @@
     }
 
     /* about */
+
+
+    .internal-about-text {
+        padding: 0rem;  
+        max-width: none;
+        width: 70%;
+        
+    }
+
+
     .about-img {
         display: flex;
         justify-content: center;
@@ -95,6 +109,7 @@
     .about-img img {
         border-radius: 1rem;
         width: 70%;
+        max-width: 62,5rem;
         max-height: 40rem;
         box-shadow: .25rem .75rem .75rem 0px rgba(0, 0, 0, 0.25);
     }
@@ -129,9 +144,9 @@
     }
 
     .internal-room-text {
-        padding: 2rem;
+        width: 60%;
+        align-items: flex-start;
     }
-
 
     /* call to action  */
     .cta-card {

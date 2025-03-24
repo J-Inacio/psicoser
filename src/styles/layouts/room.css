@@ -6,7 +6,7 @@
 	justify-content: space-evenly;
 	gap: 2rem;
 	color: var(--cor-secundaria-azul-escuro);
-	background-color: var(--cor-primaria-azul);
+	background-color: var(--cor-fundo-branco);
 	scroll-margin-top: 3rem;
 	padding: 2rem 0rem;
 }
@@ -23,6 +23,6 @@
 	justify-content: center;
 	row-gap: 1rem;
 	height: 15%;
-	padding: 1rem 1rem 0rem 1rem;
+	padding: 0rem 1rem;
 }
 
