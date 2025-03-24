@@ -75,4 +75,40 @@
 	.map-container iframe {
 		height: 300px;
 	}
+
+	.att {
+		margin: 0rem 2rem;
+		padding: 2rem;
+		grid-template-areas: 
+		"icon title"
+		"icon p1"
+		"icon p2";
+		grid-template-columns: 1fr 11fr;
+		grid-template-rows: 2rem;
+		place-content: center;
+	}
+	
+	.att strong {
+		font-weight: 700;
+	}
+	
+	.att h3 {
+		font-size: 1rem;
+		grid-area: title;
+	}
+	
+	.att i {
+		align-self: flex-end;
+		justify-self: center;
+		color: #4A4A4A;
+		font-size: 4rem;
+		grid-area: icon;
+	}
+
+	.p1 {
+		grid-area: p1;
+	}
+	.p2 {
+		grid-area: p2;
+	}
 }

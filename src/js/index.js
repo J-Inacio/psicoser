@@ -27,14 +27,6 @@ menuBtn.addEventListener("click", () => {
 	sidebar.classList.add('open')
 });
 
-document.addEventListener("DOMContentLoaded", () => {
-	// const h1 = document.createElement("h1")
-	// h1.innerText = "Olá, mundo"
-	// h1.id = "titulo"
-	// h1.className = "inter-bold"
-	// document.body.appendChild(h1)
-});
-
 const carousel = document.querySelector(".carousel");
 const images = document.querySelectorAll(".carousel img");
 const prevButton = document.getElementById("prev");

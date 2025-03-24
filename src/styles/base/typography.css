@@ -37,7 +37,7 @@
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    max-width: 60ch
+    /* max-width: 60ch */
   }
 
   .nunito-bold {

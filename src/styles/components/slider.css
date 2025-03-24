@@ -8,12 +8,14 @@
 }
 
 .carousel {
+    object-fit: cover;
     display: flex;
     transition: transform 0.5s ease-in-out;
 }
 
 .carousel img {
     width: 100%;
+    object-fit: cover;
     border-radius: 10px;
 }
 
@@ -21,7 +23,6 @@
     position: absolute;
     top: 50%;
     width: 100%;
-  
     display: flex;
     justify-content: space-between;
     transform: translateY(-50%);
