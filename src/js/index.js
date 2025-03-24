@@ -12,11 +12,11 @@ const sidebar = document.querySelector(".mobile-sidebar");
 const closeSidebarBtn = document.querySelector('.x-icon')
 
 closeSidebarBtn.addEventListener('click', () => {
-    sidebar.style.display = "none"
+    sidebar.classList.remove('open')
 })
 
 menuBtn.addEventListener("click", () => {
-	sidebar.style.display = "block"
+	sidebar.classList.add('open')
 });
 
 document.addEventListener("DOMContentLoaded", () => {

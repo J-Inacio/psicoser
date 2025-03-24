@@ -2,6 +2,12 @@
     background-color: var(--cor-fundo-branco);
 } */
 
+/* components */
+@import url('./components/btn-schedule.css');
+@import url('./components/service-card.css');
+@import url('./components/perfil-card.css');
+@import url('./components/slider.css');
+
 /* layouts */
 @import url('./layouts/header.css');
 @import url('./layouts/sidebar.css');
@@ -13,16 +19,11 @@
 @import url('./layouts/footer.css');
 @import url('./layouts/cta.css');
 
-/* components */
-@import url('./components/btn-schedule.css');
-@import url('./components/service-card.css');
-@import url('./components/perfil-card.css');
-@import url('./components/slider.css');
-
-
 /* media queries */
 @import url('./media-queries/lg.css') ;
 @import url('./media-queries/md.css') ;
+@import url('./media-queries/xl.css');
+
 
 @import url('./base/variables.css');
 

@@ -9,7 +9,7 @@
 
 
 	.hero-text h1 {
-		font-size: 2rem;
+		font-size: 2.5rem;
 		width: 100%;
 	}
 
@@ -58,6 +58,10 @@
         height: 4rem;
         width: 16rem;
 	}
+
+	.footer-links a:hover {
+        color: var(--cor-secundaria-azul-escuro);
+    }
 
 	.map-container iframe {
 		height: 300px;

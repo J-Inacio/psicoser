@@ -1,4 +1,5 @@
 .header {
+	display: flex;
 	min-width: 260px;
 	height: 16rem;
 	background-image: linear-gradient(
@@ -30,7 +31,7 @@
 	align-items: center;
 	position: fixed;
 	top: 0%;
-	z-index: 1;
+	z-index: 2;
 	background: transparent;
 	backdrop-filter: blur(10px);
 	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -46,7 +47,14 @@
 	cursor: pointer;
 }
 
+.menu-toggle:hover,
+.menu-toggle:active {
+	color: #f9f6fe;
+	-webkit-text-stroke: 0.5px #000;
+}
+
 .desktop-menu {
+	user-select: none;
 	font-size: 1.1rem;
 	height: 100%;
 	align-items: center;
@@ -54,8 +62,8 @@
 	gap: 2rem;
 	flex-grow: 1;
 	justify-content: center;
-	align-content: center;   
-	display: none; 
+	align-content: center;
+	display: none;
 }
 
 .desktop-menu li {
@@ -64,7 +72,7 @@
 	justify-content: center;
 	height: 100%;
 	width: 8rem;
-   border-radius: 50px;
+	border-radius: 50px;
 }
 
 .desktop-menu a {
@@ -76,14 +84,29 @@
 	text-align: center;
 	color: var(--cor-secundaria-azul-escuro);
 	text-decoration: none;
-	border-radius: .75rem;
+	border-radius: 0.75rem;
 	transition: transform 0.3s ease-in-out;
 }
 
-
 .desktop-menu a:hover {
-	background-color: rgba(249,246,254, 0.5);
+	background-color: rgba(249, 246, 254, 0.5);
 	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 	animation: hoverEffect 0.3s forwards;
 }
 
+
+.wave-div {
+    display: flex;
+    display: flex;
+    z-index: 1;
+    justify-content: last baseline;
+    align-items: end;
+    width: 100%; 
+    align-self: flex-end;
+   
+}
+
+.wave-div img {
+    width: 100%;
+	max-height: 10rem;
+}

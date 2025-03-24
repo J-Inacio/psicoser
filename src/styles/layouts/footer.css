@@ -151,3 +151,7 @@
 	background-color: var(--cor-primaria-azul);
 	color: var(--cor-secundaria-azul-escuro);
 }
+
+.bottom-footer p {
+	max-width: none;
+}
