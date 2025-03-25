@@ -13,9 +13,9 @@ Bem-vindo ao repositório da PsicoSer, minha primeira landing page real! 🎉 Es
 - Webpack - Empacotamento e otimização dos arquivos estáticos
 
 ## 📸 Imagem do Projeto
-![Texto alternativo](./src/assets/img/screenshot1.png)
-![Texto alternativo](./src/assets/img/screenshot2.png)
-![Texto alternativo](./src/assets/img/screenshot3.png)
+![Seção cabeçalho](./src/assets/img/screenshot1.png)
+![Seção serviços](./src/assets/img/screenshot2.png)
+![Seção cta](./src/assets/img/screenshot3.png)
 
 ## 🌐 [Clique aqui para visualizar o projeto!](https://psicoser.vercel.app/)
 
