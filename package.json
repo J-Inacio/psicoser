@@ -7,7 +7,7 @@
     "homepage": "https://J-Inacio.github.io/psicoser",
     "dev": "webpack serve --mode development",
     "build": "webpack",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist -r git@github.com:J-Inacio/psicoser.git"
   },
   "author": "",
   "license": "ISC",
