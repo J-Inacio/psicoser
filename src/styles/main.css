@@ -22,8 +22,8 @@
 @import url('./layouts/cta.css');
 
 /* media queries */
-@import url('./media-queries/lg.css') ;
 @import url('./media-queries/md.css') ;
+@import url('./media-queries/lg.css') ;
 @import url('./media-queries/xl.css');
 
 

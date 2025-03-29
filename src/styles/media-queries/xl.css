@@ -4,8 +4,15 @@
 	.hero-text p,
 	.internal-room-text p,
 	.cta-text p,
-	.footer-text-container h2 {
-		font-size: 1.375rem;
+	.footer-text-container h2,
+	.internal-card-text p,
+	.btn-schedule,
+	.desktop-menu a {
+		font-size: 1.25rem;
+	}
+
+	.hero-text h1 {
+		font-size: 2.25rem;
 	}
 
 	.hero-background {
@@ -45,10 +52,6 @@
 		padding: 2rem;
 	}
 
-	#hero-section h1 {
-		font-size: 2.5rem;
-		max-width: 40ch;
-	}
 
 	.hero-text {
 		width: 70%;
@@ -57,12 +60,6 @@
 
 	.internal-hero-container {
 		gap: 1rem;
-	}
-
-	.internal-about-text aside,
-	.internal-room-text,
-	.hero-text p {
-		font-size: 1.3rem;
 	}
 
 	.hero-btn {

@@ -24,24 +24,23 @@
 }
 
 .cta-text {
+	text-align: center;
     color: var(--cor-secundaria-azul-escuro);
 	display: flex;
 	flex-direction: column;
-	gap: 2rem;
+	justify-items: center;
 	text-align: center;
+	gap: 2rem;
 	color: var(--cor-fundo-branco);
 	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
 .cta-text h3 {
-	font-size: 1.85rem;
-	text-align: center;
+	font-size: 1.5rem;
 }
 
 .cta-text p {
-	text-align: start;
 	font-size: 1.25rem;
-	padding: 0rem 1rem;
 }
 
 .cta-btn strong {

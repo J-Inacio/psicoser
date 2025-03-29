@@ -1,219 +1,221 @@
-@media screen and (min-width: 64rem) and ((max-width: 90rem)){
+@media screen and (min-width: 64rem) and ((max-width: 90rem)) {
+	.internal-about-text p,
+	.hero-text p,
+	.internal-room-text p,
+	.cta-text p,
+	.footer-text-container h2,
+	.internal-card-text p,
+	.btn-schedule,
+	.desktop-menu a {
+		font-size: 1.125rem;
+	}
 
+	@keyframes hoverEffect {
+		0% {
+			transform: scale(1);
+		}
+		100% {
+			transform: scale(1.1);
+		}
+	}
 
-    .internal-about-text p, .hero-text p, .internal-room-text p, .cta-text p, .footer-text-container h2  {
-        font-size: 1.25rem;
-    }
-    
-    @keyframes hoverEffect {
-        0% { transform: scale(1); }
-        100% { transform: scale(1.1); }
-    }
+	/* header  */
+	.navbar {
+		padding: 1rem;
+		display: flex;
+		align-items: center;
+		height: 3rem;
+	}
 
-    .navbar {
-        padding: 1rem;
-        display: flex;
-        align-items: center;
-        height: 3rem;
-    }
+	.logo-header-link {
+		height: 100%;
+	}
 
-    .logo-header-link {
-        height: 100%;
-    }
+	.menu-toggle {
+		display: none;
+	}
 
-    .menu-toggle {
-        display: none;
-    }
+	.hero-text h1 {
+		width: 70%;
+		gap: 2rem;
+	}
 
-    .hero-text h1 {
-        /* font-size: 2.5rem; */
-        width: 70%;
-        gap: 2rem;
-    }
+	.internal-hero-container {
+		gap: 1rem;
+	}
 
-    .internal-hero-container {
-        gap: 1rem;
-    }
+	/* hero  */
+	.cta-card-hero {
+		gap: 3rem;
+	}
 
-    .internal-about-text aside, .internal-room-text, .hero-text p {
-        font-size: 1.3rem;
-    }
+	.hero-btn {
+		width: 10rem;
+	}
 
-    .hero-btn {
-        font-size: 1.5rem;
-        height: 5rem;
-        width: 15rem;
-    }
+	#services,
+	#about,
+	#room {
+		scroll-margin-top: 5rem;
+		scroll-behavior: smooth;
+	}
 
-    
+	.desktop-menu {
+		display: flex;
+	}
 
-    #services, #about,#room{
-        scroll-margin-top: 5rem;
-        scroll-behavior: smooth;
-    }
+	/* services */
+	.internal-card-text {
+		padding: 1rem 2rem;
+		gap: 1rem;
+	}
+	.cards {
+		gap: 2rem;
+	}
 
-   .desktop-menu {
-    display: flex;
-   }
+	#about {
+		padding: 2rem 2rem;
+		gap: 2rem;
+	}
 
-    /* services */
-    .internal-card-text h3{
+	.internal-about-text {
+		padding: 0rem;
+	}
+
+	/* about */
+	.internal-about-text {
+		padding: 0rem;
+		max-width: none;
+		width: 70%;
+	}
+
+	.about-img {
+		display: flex;
+		justify-content: center;
+	}
+
+	.about-img img {
+		border-radius: 1rem;
+		width: 70%;
+		max-width: 62, 5rem;
+		max-height: 40rem;
+		box-shadow: 0.25rem 0.75rem 0.75rem 0px rgba(0, 0, 0, 0.25);
+	}
+
+	/* team */
+	#team {
+		gap: 2rem;
+		padding: 4rem 0rem;
+	}
+	.perfil-cards-container {
+		gap: 0;
+		justify-content: space-evenly;
+	}
+
+	.perfil-card {
+		width: 20rem;
+		align-items: center;
+		/* height: 30rem; */
+		object-fit: cover;
+		height: 35rem;
+	}
+
+	.perfil-img {
+		object-fit: cover;
+		width: 100%;
+	}
+
+	/* room */
+	#room {
+		padding: 2rem 0rem;
+	}
+
+	.internal-room-text {
+		width: 50rem;
+		align-items: flex-start;
+	}
+
+	/* call to action  */
+	.cta-card {
+		gap: 5rem;
+		padding: 2rem;
+	}
+
+	.cta-text h3 {
+		font-size: 2rem;
+	}
+
+	.cta-text p {
 		font-size: 1.5rem;
+		align-self: center;
+		width: 75%;
 	}
 
-	.internal-card-text p {
-		font-size: 1.1rem;
-	}
-
-    .cards {
-        gap: 2rem;
-    }
-
-    #about {
-        padding: 2rem 2rem;
-        gap: 2rem;
-    }
-
-    .internal-about-text {
-        padding: 0rem;
-    }
-
-    /* about */
-
-
-    .internal-about-text {
-        padding: 0rem;  
-        max-width: none;
-        width: 70%;
-        
-    }
-
-
-    .about-img {
-        display: flex;
-        justify-content: center;
-    }
-
-    .about-img img {
-        border-radius: 1rem;
-        width: 70%;
-        max-width: 62,5rem;
-        max-height: 40rem;
-        box-shadow: .25rem .75rem .75rem 0px rgba(0, 0, 0, 0.25);
-    }
-
-    /* team */
-
-    #team {
-        gap: 2rem;
-        padding: 4rem 0rem;
-    }
-    .perfil-cards-container {
-        gap: 0;
-        justify-content: space-evenly;
-    }
-
-    .perfil-card {
-        width: 20rem;
-        align-items: center;
-        /* height: 30rem; */
-        object-fit: cover;
-        height: 35rem;
-    }
-
-    .perfil-img {
-        object-fit: cover;
-        width: 100%;
-    }
-
-    /* room */
-    #room {
-        padding: 2rem 0rem;
-    }
-
-    .internal-room-text {
-        width: 60%;
-        align-items: flex-start;
-    }
-
-    /* call to action  */
-    .cta-card {
-        gap: 5rem;
-    }
-
-    .cta-text h3 {
-        font-size: 2.5rem;
-    }
-
-    .cta-text p {
-        align-self: center;
-        width: 75%;
-    }
-
-    .cta-btn {
+	.cta-btn {
 		font-size: 1.5rem;
-        height: 4rem;
-        width: 16rem;
+		height: 4rem;
+		width: 16rem;
 	}
 
+	/* footer */
+	.contacts-address {
+		display: flex;
+		padding: 2rem;
+	}
 
-    /* footer */
-    /* #contact {
-    } */
+	.room-location-container {
+		order: 2;
+		width: 50%;
+		border-radius: 1.5rem;
+	}
 
-    .contacts-address {
-        display: flex;
-        padding: 2rem;
-    }
+	.room-location-container iframe {
+		border-radius: 1.5rem;
+	}
 
-    .room-location-container {
-        order: 2;
-        width: 50%;
-        border-radius: 1rem;
-    }
+	.footer-text-container {
+		gap: 1rem;
+		width: 50%;
+	}
 
-    .room-location-container iframe {
-        border-radius: 1rem;
-    }
+	.footer-links a:hover {
+		color: var(--cor-secundaria-azul-escuro);
+	}
 
-    .footer-text-container {
-        gap: 1rem;
-        width: 50%;
-    }
+	.logo-footer {
+		width: 15rem;
+	}
 
-    .footer-links a:hover {
-        color: var(--cor-secundaria-azul-escuro);
-    }
-
-    .logo-footer {
-        width: 15rem;
-    }
-
-    .att {
+	.att {
 		margin: 0rem 2rem;
 		padding: 2rem;
-		grid-template-areas: 
-		"icon title"
-		"icon p1"
-		"icon p2";
+		grid-template-areas:
+			"icon title"
+			"icon p1"
+			"icon p2";
 		grid-template-columns: 1fr 11fr;
 		grid-template-rows: 2rem;
 		place-content: center;
 	}
-	
+
 	.att strong {
 		font-weight: 700;
 	}
-	
+
 	.att h3 {
 		font-size: 1rem;
 		grid-area: title;
 	}
-	
+
+	.att p,
+	.bottom-footer p {
+		font-size: 0.875rem;
+	}
+
 	.att i {
 		align-self: flex-end;
 		justify-self: center;
-		color: #4A4A4A;
+		color: #4a4a4a;
 		font-size: 4rem;
 		grid-area: icon;
 	}
@@ -224,5 +226,4 @@
 	.p2 {
 		grid-area: p2;
 	}
-
 }
