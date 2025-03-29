@@ -1,31 +1,13 @@
-/* .btn-schedule {
-	text-decoration: none;
-	display: flex;
-	column-gap: 1rem;
-	justify-content: center;
-	align-items: center;
-	width: 14rem;
-	height: 3rem;
-	border: none;
-	border-radius: 1rem;
-	background-color: var(--cor-secundaria-azul-escuro);
-	border: 1px solid var(--cor-secundaria-azul-escuro);
-	color: #f9f9f4;
-	font-size: 0.75rem;
-	padding: 1em;
-	cursor: pointer;
-} */
-
 .btn-schedule {
 	text-align: center;
 	display: flex;
 	align-content: center;
-	background: linear-gradient(135deg, #457B9D, #2C3E50);
+	background: linear-gradient(135deg, #457b9d, #2c3e50);
 	background-color: var(--cor-secundaria-azul-escuro);
 	height: 2rem;
 	color: #f1faee;
 	border: none;
-	border-radius: 8px;
+	border-radius: 9999px;
 	padding: 1rem 2rem;
 	font-size: 1rem;
 	cursor: pointer;
@@ -37,8 +19,8 @@
 
 .btn-schedule:hover {
 	transform: translateY(-3px);
-	box-shadow: 0px .625rem .625rem 0px rgba(0, 0, 0, 0.25);
-	background: linear-gradient(135deg, #3A6F8A, #243447);
+	box-shadow: 0px 0.625rem 0.625rem 0px rgba(0, 0, 0, 0.25);
+	background: linear-gradient(135deg, #3a6f8a, #243447);
 }
 
 .btn-schedule strong {
