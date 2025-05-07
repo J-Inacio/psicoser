@@ -488,10 +488,11 @@ table {
 	height: 100%;
 	background: transparent;
 	backdrop-filter: blur(5px);
+	/* margin: 4rem 0rem; */
+	/* padding: 4rem 0rem; */
 }
 
 .cta-card-hero {
-	margin: 4rem 0rem;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -636,13 +637,42 @@ table {
 
 }
 
-.perfil-cards-container {
+.perfil-psicologo {
+    background-color: #09182D;
+    color: #F9F9F4
+}
+
+.perfil-psicologo img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    max-height: 32rem;
+}
+
+.perfil-psicologo aside {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1rem;
+}
+
+.perfil-psicologo aside h2 {
+    margin-bottom: 1rem;
+}
+
+.perfil-psicologo a {
+    height: 2.5rem;
+    width: 50%;
+    align-self: center;
+}
+
+/* .perfil-cards-container {
     width: 100%;
     display: flex;
     justify-content: center;
     gap: 1rem;
     flex-wrap: wrap;
-}
+} */
 #room {
 	width: 100%;
 	display: flex;
@@ -941,8 +971,28 @@ table {
 		padding: 2rem 0rem;
 	}
 
-	.perfil-cards-container {
+	/* .perfil-cards-container {
 		justify-content: space-evenly;
+	} */
+
+	.perfil-psicologo {
+		display: flex;
+	}
+	
+	.perfil-psicologo img {
+		width: 100%;
+		object-fit: cover;
+		object-position: center;
+	}
+	
+	.perfil-psicologo aside {
+		flex-direction: column;
+		justify-content: center;
+		gap: 2rem;
+	}
+	
+	.perfil-psicologo a {
+		margin-top: 3rem;
 	}
 
 	/* cta  */
@@ -999,7 +1049,9 @@ table {
 	.footer-text-container h2,
 	.internal-card-text p,
 	.btn-schedule,
-	.desktop-menu a {
+	.desktop-menu a,
+	.perfil-psicologo aside p,
+	.perfil-psicologo aside h3 {
 		font-size: 1.125rem;
 	}
 
@@ -1100,23 +1152,43 @@ table {
 		gap: 2rem;
 		padding: 4rem 0rem;
 	}
-	.perfil-cards-container {
+	/* .perfil-cards-container {
 		gap: 0;
 		justify-content: space-evenly;
+	} */
+
+	.perfil-psicologo {
+		display: flex;
 	}
 
-	.perfil-card {
+	.perfil-psicologo img {
+		width: 100%;
+		object-fit: cover;
+		object-position: center;
+	}
+	
+	.perfil-psicologo aside {
+		padding: 0rem 2rem;
+		flex-direction: column;
+		justify-content: center;
+		gap: 2rem;
+	}
+	
+	.perfil-psicologo a {
+		margin-top: 8rem;
+	}
+
+	/* .perfil-card {
 		width: 20rem;
 		align-items: center;
-		/* height: 30rem; */
 		object-fit: cover;
 		height: 35rem;
-	}
+	} */
 
-	.perfil-img {
+	/* .perfil-img {
 		object-fit: cover;
 		width: 100%;
-	}
+	} */
 
 	/* room */
 	#room {
@@ -1242,7 +1314,9 @@ table {
 	.btn-schedule,
 	.desktop-menu a,
 	.perfil-internal-text li,
-	.perfil-card figcaption{
+	.perfil-card figcaption,
+	.perfil-psicologo aside p,
+	.perfil-psicologo aside h3{
 		font-size: 1.25rem;
 	}
 
@@ -1364,7 +1438,28 @@ table {
 		padding: 4rem 0rem;
 	}
 
-	.perfil-cards-container {
+	.perfil-psicologo {
+		display: flex;
+	}
+
+	.perfil-psicologo img {
+		width: 100%;
+		object-fit: cover;
+		object-position: center;
+	}
+	
+	.perfil-psicologo aside {
+		padding: 0rem 4rem;
+		flex-direction: column;
+		justify-content: center;
+		gap: 2rem;
+	}
+	
+	.perfil-psicologo a {
+		margin-top: 8rem;
+	}
+
+	/* .perfil-cards-container {
 		gap: 0;
 		justify-content: space-evenly;
 	}
@@ -1384,7 +1479,7 @@ table {
 
 	.perfil-card h3 {
 		font-size: 1.5rem;
-	}
+	} */
 
 	/* room */
 	#room {
