@@ -22,10 +22,11 @@
 	height: 100%;
 	background: transparent;
 	backdrop-filter: blur(5px);
+	/* margin: 4rem 0rem; */
+	/* padding: 4rem 0rem; */
 }
 
 .cta-card-hero {
-	margin: 4rem 0rem;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
