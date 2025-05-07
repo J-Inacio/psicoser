@@ -23,8 +23,28 @@
 		padding: 2rem 0rem;
 	}
 
-	.perfil-cards-container {
+	/* .perfil-cards-container {
 		justify-content: space-evenly;
+	} */
+
+	.perfil-psicologo {
+		display: flex;
+	}
+	
+	.perfil-psicologo img {
+		width: 100%;
+		object-fit: cover;
+		object-position: center;
+	}
+	
+	.perfil-psicologo aside {
+		flex-direction: column;
+		justify-content: center;
+		gap: 2rem;
+	}
+	
+	.perfil-psicologo a {
+		margin-top: 3rem;
 	}
 
 	/* cta  */

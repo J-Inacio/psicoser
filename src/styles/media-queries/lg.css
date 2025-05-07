@@ -6,7 +6,9 @@
 	.footer-text-container h2,
 	.internal-card-text p,
 	.btn-schedule,
-	.desktop-menu a {
+	.desktop-menu a,
+	.perfil-psicologo aside p,
+	.perfil-psicologo aside h3 {
 		font-size: 1.125rem;
 	}
 
@@ -107,23 +109,43 @@
 		gap: 2rem;
 		padding: 4rem 0rem;
 	}
-	.perfil-cards-container {
+	/* .perfil-cards-container {
 		gap: 0;
 		justify-content: space-evenly;
+	} */
+
+	.perfil-psicologo {
+		display: flex;
 	}
 
-	.perfil-card {
+	.perfil-psicologo img {
+		width: 100%;
+		object-fit: cover;
+		object-position: center;
+	}
+	
+	.perfil-psicologo aside {
+		padding: 0rem 2rem;
+		flex-direction: column;
+		justify-content: center;
+		gap: 2rem;
+	}
+	
+	.perfil-psicologo a {
+		margin-top: 8rem;
+	}
+
+	/* .perfil-card {
 		width: 20rem;
 		align-items: center;
-		/* height: 30rem; */
 		object-fit: cover;
 		height: 35rem;
-	}
+	} */
 
-	.perfil-img {
+	/* .perfil-img {
 		object-fit: cover;
 		width: 100%;
-	}
+	} */
 
 	/* room */
 	#room {

@@ -16,10 +16,39 @@
 
 }
 
-.perfil-cards-container {
+.perfil-psicologo {
+    background-color: #09182D;
+    color: #F9F9F4
+}
+
+.perfil-psicologo img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    max-height: 32rem;
+}
+
+.perfil-psicologo aside {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1rem;
+}
+
+.perfil-psicologo aside h2 {
+    margin-bottom: 1rem;
+}
+
+.perfil-psicologo a {
+    height: 2.5rem;
+    width: 50%;
+    align-self: center;
+}
+
+/* .perfil-cards-container {
     width: 100%;
     display: flex;
     justify-content: center;
     gap: 1rem;
     flex-wrap: wrap;
-}
+} */
